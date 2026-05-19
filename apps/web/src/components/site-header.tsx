@@ -3,6 +3,7 @@ import { Link } from '@/i18n/navigation';
 import { siteConfig } from '@/config/site';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { LocaleSwitcher } from '@/components/locale-switcher';
+import { UserMenu } from '@/components/user-menu';
 
 export function SiteHeader() {
   const t = useTranslations('nav');
@@ -20,11 +21,12 @@ export function SiteHeader() {
           <Link href="/about" className="hover:text-foreground">
             {t('about')}
           </Link>
-          <Link href="/sign-in" className="hover:text-foreground">
-            {t('signIn')}
+          <Link href="/contact" className="hover:text-foreground">
+            {t('contact')}
           </Link>
         </nav>
         <div className="flex items-center gap-2">
+          <UserMenu />
           <LocaleSwitcher />
           <ThemeToggle />
         </div>

@@ -13,11 +13,11 @@
     "test:watch": "vitest",
     "e2e": "playwright test",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "tsx src/db/migrate.ts",
+    "db:migrate": "tsx --env-file-if-exists=.env.local src/db/migrate.ts",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:seed": "tsx src/db/seed.ts",
-    "db:reset": "tsx src/db/reset.ts"
+    "db:seed": "tsx --env-file-if-exists=.env.local src/db/seed.ts",
+    "db:reset": "tsx --env-file-if-exists=.env.local src/db/reset.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

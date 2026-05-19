@@ -7,8 +7,7 @@ if (existsSync(dbFile)) {
   console.log('✓ Removed', dbFile);
 }
 
-const migrate = spawnSync('pnpm', ['db:migrate'], { stdio: 'inherit' });
-if (migrate.status !== 0) process.exit(migrate.status ?? 1);
-
-const seed = spawnSync('tsx', ['src/db/seed.ts'], { stdio: 'inherit' });
-if (seed.status !== 0) process.exit(seed.status ?? 1);
+for (const step of ['src/db/migrate.ts', 'src/db/seed.ts']) {
+  const r = spawnSync('tsx', [step], { stdio: 'inherit' });
+  if (r.status !== 0) process.exit(r.status ?? 1);
+}

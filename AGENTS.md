@@ -6,13 +6,13 @@ Operational contract for this repo. Tool-neutral. Read this first.
 
 ```bash
 pnpm install
-cp .env.example apps/web/.env.local
-# edit BETTER_AUTH_SECRET (openssl rand -base64 32)
-pnpm db:migrate
+pnpm bootstrap     # writes apps/web/.env.local (fresh BETTER_AUTH_SECRET) + runs db:migrate
 pnpm dev
 # verify: http://localhost:3000 → 307 → /en
 pnpm verify
 ```
+
+`pnpm bootstrap` is idempotent. If `apps/web/.env.local` exists, it leaves it alone and just re-runs migrations. Don't use `pnpm setup` — that's pnpm's built-in PATH installer, not this repo's command.
 
 ## Project shape
 

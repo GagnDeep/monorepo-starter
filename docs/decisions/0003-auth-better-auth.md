@@ -1,5 +1,21 @@
 # 0003: Better-Auth over NextAuth
 
-Better-Auth has a smaller surface, native TypeScript, no provider lock-in, and a Drizzle adapter that maps cleanly to our schema. NextAuth (v5) is heavier and its session model is harder to extend.
+## Decision
 
-Sessions: server via `lib/auth-session.ts` (`getSession`, `requireSession`), client via `lib/auth-client.ts`.
+Use Better-Auth with the Drizzle adapter.
+
+## Context
+
+We need email/password + OAuth, sessions readable from both server and client components, and a schema we own.
+
+## Alternatives considered
+
+- **NextAuth (Auth.js) v5** — larger surface, harder-to-extend session model, opaque DB schema.
+- **Clerk / WorkOS** — fast to integrate, but pulls auth out of the codebase and adds a vendor.
+- **Lucia** — deprecated; not a forward path.
+
+## Consequences
+
+- Auth tables (`user`, `session`, `account`, `verification`) live in `db/schema.ts` and migrate alongside app tables.
+- Server reads: `lib/auth-session.ts` (`getSession`, `requireSession`). Client reads: `lib/auth-client.ts` (`useSession`).
+- To add OAuth: set provider env vars and uncomment `socialProviders` in `lib/auth.ts`.

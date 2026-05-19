@@ -17,13 +17,15 @@ Production-grade Next.js starter that's ready on day one. Batteries included: i1
 
 ```bash
 pnpm install
-cp .env.example apps/web/.env.local
-# edit BETTER_AUTH_SECRET (openssl rand -base64 32)
-pnpm db:migrate
+pnpm bootstrap    # generates apps/web/.env.local with a real secret + runs migrations
 pnpm dev
 ```
 
 Open <http://localhost:3000> — it redirects to `/en`.
+
+`pnpm bootstrap` is idempotent and safe to re-run. It won't overwrite an existing `.env.local`.
+
+> Note: avoid `pnpm setup` — that's pnpm's built-in PATH installer, not this repo's command.
 
 ## For agents / AI tools
 

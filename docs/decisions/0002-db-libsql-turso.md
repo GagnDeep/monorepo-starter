@@ -1,5 +1,20 @@
 # 0002: libsql / Turso over Postgres
 
-libsql (Turso) gives us SQLite ergonomics in development (file:./local.db) and edge-replicated SQL in production with the same driver. Postgres would require Docker locally and a managed service in prod. The starter optimizes for zero-setup dev.
+## Decision
 
-If you outgrow SQLite semantics (true concurrent writes, advanced types), migrate — Drizzle abstracts the SQL.
+Use libsql (SQLite-compatible) via `@libsql/client` and Drizzle ORM, hosted on Turso in production.
+
+## Context
+
+The starter optimizes for zero-setup local dev: `pnpm install && pnpm dev` should work without Docker, services, or remote credentials.
+
+## Alternatives considered
+
+- **Postgres (Neon/Supabase/RDS)** — richer types, true concurrency, but requires Docker locally or a remote dev DB.
+- **Better-sqlite3** — fast local SQLite, no production story; you'd swap drivers when shipping.
+
+## Consequences
+
+- One driver covers local file (`file:./local.db`) and edge-replicated prod (`libsql://...`).
+- Limits: no JSONB/array types, single-writer semantics, weaker concurrent-write story.
+- If you outgrow SQLite, migrate — Drizzle abstracts the SQL.
