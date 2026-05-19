@@ -1,0 +1,2 @@
+pnpm-lock.yaml linguist-generated=true -diff
+apps/web/src/db/migrations/** linguist-generated=true
