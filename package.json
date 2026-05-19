@@ -1,0 +1,37 @@
+{
+  "name": "monorepo-starter",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "e2e": "pnpm --filter web e2e",
+    "verify": "pnpm typecheck && pnpm lint && pnpm check:i18n && pnpm build",
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "context": "node scripts/context.mjs",
+    "gen:page": "node scripts/gen.mjs page",
+    "gen:locale": "node scripts/gen.mjs locale",
+    "gen:table": "node scripts/gen.mjs table",
+    "db:generate": "turbo run db:generate",
+    "db:migrate": "turbo run db:migrate",
+    "db:studio": "pnpm --filter web db:studio",
+    "db:push": "turbo run db:push",
+    "db:seed": "pnpm --filter web db:seed",
+    "db:reset": "pnpm --filter web db:reset",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+  },
+  "devDependencies": {
+    "lefthook": "^2.1.7",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "turbo": "^2.9.14",
+    "typescript": "^6.0.3"
+  }
+}

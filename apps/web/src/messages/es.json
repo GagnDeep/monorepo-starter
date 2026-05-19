@@ -1,0 +1,58 @@
+{
+  "site": {
+    "name": "Acme",
+    "tagline": "Una plantilla Next.js de primer nivel."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "signIn": "Iniciar sesión"
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Envíanos un mensaje y te responderemos pronto.",
+    "name": "Tu nombre",
+    "email": "Correo electrónico",
+    "message": "Tu mensaje",
+    "submit": "Enviar mensaje"
+  },
+  "home": {
+    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
+    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
+    "ctaPrimary": "Empezar",
+    "ctaSecondary": "Leer los documentos"
+  },
+  "about": {
+    "title": "Acerca de",
+    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+  },
+  "signIn": {
+    "title": "Iniciar sesión",
+    "description": "Usa tu correo y contraseña para continuar.",
+    "email": "Correo",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "register": "Crear una cuenta",
+    "errors": {
+      "invalid": "Credenciales inválidas.",
+      "unknown": "Algo salió mal. Inténtalo de nuevo."
+    }
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe.",
+    "back": "Volver al inicio"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "locale": {
+    "switch": "Cambiar idioma",
+    "en": "Inglés",
+    "es": "Español"
+  }
+}

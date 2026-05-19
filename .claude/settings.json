@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm typecheck:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm verify:*)",
+      "Bash(pnpm db:*)",
+      "Bash(pnpm gen:*)",
+      "Bash(pnpm context:*)",
+      "Bash(pnpm check:*)",
+      "Bash(curl http://localhost:3000/*)",
+      "Bash(sqlite3 *.db:*)"
+    ]
+  }
+}
