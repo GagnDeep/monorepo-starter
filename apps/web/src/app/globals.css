@@ -118,6 +118,14 @@
   --brand-foreground: 240 5.9% 10%;
 }
 
+/* AGENT-NOTE: Tailwind v4 removed the `container.center` / `container.padding`
+   config options. Centering + gutters are restored by extending the utility here
+   (CSS-first equivalent of v3's `container: { center: true, padding: '2rem' }`). */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
 @layer base {
   * {
     @apply border-border;
