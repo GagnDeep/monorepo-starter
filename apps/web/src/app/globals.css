@@ -3,15 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/*
- * Theme tokens — Tailwind v4 CSS-first config.
- * Edit the HSL values under :root / .dark to rebrand the entire app.
- * The @theme inline block exposes them as Tailwind color utilities (bg-primary, text-foreground, etc.).
- */
-
-/* AGENT-NOTE: @theme inline exposes the HSL vars below as Tailwind utilities.
-   To rebrand: edit the --background / --foreground / --primary etc. under :root and .dark.
-   Don't add a tailwind.config.{js,ts} — v4 is CSS-first by design. */
 @theme inline {
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -44,83 +35,92 @@
   --color-brand: hsl(var(--brand));
   --color-brand-foreground: hsl(var(--brand-foreground));
 
+  --font-heading: var(--font-playfair);
+  --font-sans: var(--font-manrope);
+
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
 }
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
+  /* Warm Sand Background for Light Mode */
+  --background: 40 33% 98%;
+  --foreground: 330 20% 15%;
 
-  --card: 0 0% 100%;
-  --card-foreground: 240 10% 3.9%;
+  --card: 40 30% 96%;
+  --card-foreground: 330 20% 15%;
 
-  --popover: 0 0% 100%;
-  --popover-foreground: 240 10% 3.9%;
+  --popover: 40 30% 96%;
+  --popover-foreground: 330 20% 15%;
 
-  --primary: 240 5.9% 10%;
-  --primary-foreground: 0 0% 98%;
+  /* Deep Wine/Magenta Primary */
+  --primary: 335 55% 35%;
+  --primary-foreground: 40 33% 98%;
 
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
+  /* Warm Beige Secondary */
+  --secondary: 35 25% 90%;
+  --secondary-foreground: 335 55% 35%;
 
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
+  /* Muted Sand */
+  --muted: 35 20% 92%;
+  --muted-foreground: 330 10% 45%;
 
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
+  /* Accent Gold/Vibrant Yellow-Orange */
+  --accent: 38 85% 55%;
+  --accent-foreground: 335 55% 35%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 240 5.9% 10%;
+  --border: 35 20% 88%;
+  --input: 35 20% 88%;
+  --ring: 335 55% 35%;
 
-  /* Brand tokens — change these to rebrand */
-  --brand: 240 5.9% 10%;
-  --brand-foreground: 0 0% 98%;
+  --brand: 335 55% 35%;
+  --brand-foreground: 40 33% 98%;
 
-  --radius: 0.5rem;
+  --radius: 0.25rem; /* Slightly sharper corners for editorial feel */
 }
 
 .dark {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
+  /* Deep Charcoal/Wine Background for Dark Mode */
+  --background: 330 15% 10%;
+  --foreground: 40 33% 98%;
 
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
+  --card: 330 15% 12%;
+  --card-foreground: 40 33% 98%;
 
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
+  --popover: 330 15% 12%;
+  --popover-foreground: 40 33% 98%;
 
-  --primary: 0 0% 98%;
-  --primary-foreground: 240 5.9% 10%;
+  /* Vibrant Magenta Primary */
+  --primary: 335 65% 55%;
+  --primary-foreground: 40 33% 98%;
 
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
+  /* Darker Wine Secondary */
+  --secondary: 335 30% 20%;
+  --secondary-foreground: 40 33% 98%;
 
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
+  /* Muted Charcoal */
+  --muted: 330 10% 20%;
+  --muted-foreground: 40 20% 70%;
 
-  --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
+  /* Accent Gold */
+  --accent: 38 85% 55%;
+  --accent-foreground: 330 15% 10%;
 
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  --border: 330 15% 20%;
+  --input: 330 15% 20%;
+  --ring: 335 65% 55%;
 
-  --brand: 0 0% 98%;
-  --brand-foreground: 240 5.9% 10%;
+  --brand: 335 65% 55%;
+  --brand-foreground: 330 15% 10%;
 }
 
-/* AGENT-NOTE: Tailwind v4 removed the `container.center` / `container.padding`
-   config options. Centering + gutters are restored by extending the utility here
-   (CSS-first equivalent of v3's `container: { center: true, padding: '2rem' }`). */
 @utility container {
   margin-inline: auto;
   padding-inline: 2rem;
@@ -131,6 +131,9 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/20 selection:text-primary;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
   }
 }

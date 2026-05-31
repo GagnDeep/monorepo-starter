@@ -1,11 +1,12 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Mutiyar the Fashion Studio",
+    "tagline": "Trajes personalizados y costura exclusiva para mujeres."
   },
   "nav": {
     "home": "Inicio",
-    "about": "Acerca de",
+    "about": "Nosotros",
+    "services": "Servicios",
     "contact": "Contacto",
     "signIn": "Iniciar sesión"
   },
@@ -18,30 +19,34 @@
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Trajes personalizados y costura exclusiva para mujeres.",
+    "description": "Bienvenida a Mutiyar the Fashion Studio. Colecciones de colores vibrantes, diseños de tendencia y estándares internacionales.",
+    "ctaPrimary": "Ver Colección",
+    "ctaSecondary": "Reservar una cita"
   },
   "about": {
-    "title": "Acerca de",
-    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+    "title": "Sobre Nosotros",
+    "body": "Mutiyar the Fashion Studio te trae trajes personalizados y costura experta, entregados a tiempo. Con un estándar internacional favorito de nuestras clientas en Canadá."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "body": "Costura experta, colecciones vibrantes, diseños de tendencia."
   },
   "signIn": {
     "title": "Iniciar sesión",
     "description": "Usa tu correo y contraseña para continuar.",
-    "email": "Correo",
+    "email": "Correo electrónico",
     "password": "Contraseña",
     "submit": "Iniciar sesión",
     "register": "Crear una cuenta",
     "errors": {
       "invalid": "Credenciales inválidas.",
-      "unknown": "Algo salió mal. Inténtalo de nuevo."
+      "unknown": "Algo salió mal. Por favor, inténtalo de nuevo."
     }
   },
   "notFound": {
     "title": "Página no encontrada",
-    "description": "La página que buscas no existe.",
+    "description": "La página que buscabas no existe.",
     "back": "Volver al inicio"
   },
   "theme": {
