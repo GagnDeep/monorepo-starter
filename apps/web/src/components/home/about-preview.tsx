@@ -60,7 +60,7 @@ export function AboutPreview() {
           </h2>
           <div className="w-12 h-1 bg-accent rounded-full"></div>
           <p className="text-lg md:text-xl font-light leading-relaxed opacity-90">
-            {t('body')}
+            {t('body1')}
           </p>
           <div className="grid grid-cols-2 gap-8 pt-8 border-t border-border/50 mt-4">
             <div>

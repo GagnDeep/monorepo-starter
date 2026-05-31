@@ -11,12 +11,17 @@
     "signIn": "Iniciar sesión"
   },
   "contact": {
-    "title": "Contacto",
-    "description": "Envíanos un mensaje y te responderemos pronto.",
+    "title": "Contáctanos",
+    "description": "Nos encantaría saber de ti. Visita nuestro estudio o envíanos un mensaje.",
     "name": "Tu nombre",
     "email": "Correo electrónico",
     "message": "Tu mensaje",
-    "submit": "Enviar mensaje"
+    "submit": "Enviar mensaje",
+    "visit": "Visita nuestro estudio",
+    "address": "Urban Estate Phase 2, Patiala, Punjab",
+    "hours": "Lun-Sáb: 11:00 AM - 2:00 PM & 4:00 PM - 8:00 PM",
+    "phoneLabel": "Teléfono",
+    "phone": "+91 88926 94846"
   },
   "home": {
     "title": "Trajes personalizados y costura exclusiva para mujeres.",
@@ -25,12 +30,36 @@
     "ctaSecondary": "Reservar una cita"
   },
   "about": {
-    "title": "Sobre Nosotros",
-    "body": "Mutiyar the Fashion Studio te trae trajes personalizados y costura experta, entregados a tiempo. Con un estándar internacional favorito de nuestras clientas en Canadá."
+    "title": "Nuestra Historia",
+    "subtitle": "Creando elegancia desde el primer día",
+    "body1": "En Mutiyar the Fashion Studio, creemos que cada mujer merece un traje que se adapte perfectamente a su forma, estilo y personalidad. Ubicados en el corazón de Urban Estate Phase 2, Patiala, nos especializamos en costura personalizada de alta gama.",
+    "body2": "Con una calificación de 4.6 estrellas de nuestras queridas clientas, nos enorgullecemos de la entrega a tiempo y de mantener un estándar internacional de calidad. Ya seas local o pidas desde Canadá, nuestras colecciones vibrantes garantizan que destacarás.",
+    "stats": {
+      "rating": "4.6★",
+      "ratingLabel": "Satisfacción",
+      "delivery": "100%",
+      "deliveryLabel": "Entrega a tiempo",
+      "global": "Global",
+      "globalLabel": "Envíos disponibles"
+    }
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "body": "Costura experta, colecciones vibrantes, diseños de tendencia."
+    "title": "Servicios a Medida",
+    "subtitle": "Confeccionado a la perfección",
+    "items": [
+      {
+        "title": "Trajes Personalizados",
+        "description": "Hacemos realidad tu visión. Cosemos trajes perfectamente adaptados a tus medidas y preferencias."
+      },
+      {
+        "title": "Entrega Internacional",
+        "description": "Atendemos a clientas internacionales, particularmente en Canadá. Auténtica calidad boutique india en tu puerta."
+      },
+      {
+        "title": "Ajuar Nupcial",
+        "description": "Costura intrincada especializada para novias. Colores vibrantes y adornos de moda."
+      }
+    ]
   },
   "signIn": {
     "title": "Iniciar sesión",
