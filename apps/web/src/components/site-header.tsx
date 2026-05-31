@@ -3,7 +3,6 @@ import { Link } from '@/i18n/navigation';
 import { siteConfig } from '@/config/site';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { LocaleSwitcher } from '@/components/locale-switcher';
-import { UserMenu } from '@/components/user-menu';
 
 export function SiteHeader() {
   const t = useTranslations('nav');

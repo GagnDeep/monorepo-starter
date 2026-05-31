@@ -31,10 +31,20 @@
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "YAVA DESIGNS",
+    "description": "Trajes étnicos cosidos a medida desde Chandigarh. Entrega rápida en 2 días en India y envíos a todo el mundo.",
+    "heroHeading": "Elegante. Femenino. Artesanía Premium.",
+    "heroSub": "Tu ajuste perfecto, adaptado a tu esencia.",
+    "heroCta": "Explorar colecciones",
+    "introTitle": "Un Legado de Costura",
+    "introText": "Con sede en el corazón de Chandigarh en el Sector 22C, YAVA DESIGNS es una boutique dedicada al arte de la ropa étnica cosida a medida. Combinamos la artesanía tradicional con la elegancia contemporánea.",
+    "collectionsTitle": "Colecciones Destacadas",
+    "collectionsSubtitle": "Trajes étnicos curados y diseñados para cada ocasión.",
+    "stitchingTitle": "El Arte de la Costura a Medida",
+    "stitchingDesc": "Creemos que toda mujer merece un traje que le quede perfecto. Nuestros sastres expertos garantizan medidas precisas y un acabado impecable, entregado directamente en su puerta.",
+    "stitchingCta": "Reservar una consulta",
+    "reviewsTitle": "Amado por mujeres de todo el mundo",
+    "reviewsSubtitle": "4.8★ en Google (108+ Reseñas)"
   },
   "about": {
     "title": "Acerca de",
