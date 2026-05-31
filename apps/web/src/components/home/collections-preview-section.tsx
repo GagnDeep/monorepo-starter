@@ -16,7 +16,7 @@ const collections = [
     id: 'cotton-suits',
     title: 'Cotton Suits',
     description: 'Elegant, breathable everyday wear featuring intricate block prints and hand embroidery.',
-    image: 'https://images.unsplash.com/photo-1585467314757-0470ce23859d?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'lehengas',

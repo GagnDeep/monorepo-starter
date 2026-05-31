@@ -6,6 +6,9 @@ import { StorySection } from '@/components/home/story-section';
 import { CollectionsPreviewSection } from '@/components/home/collections-preview-section';
 import { BridalSection } from '@/components/home/bridal-section';
 import { ReviewsSection } from '@/components/home/reviews-section';
+import { CategoriesBento } from '@/components/home/categories-bento';
+import { LocationSection } from '@/components/home/location-section';
+import { NewsletterSection } from '@/components/home/newsletter-section';
 
 export async function generateMetadata({
   params,
@@ -26,8 +29,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <HeroSection />
       <StorySection />
       <CollectionsPreviewSection />
+
       <BridalSection />
+      <CategoriesBento />
+
       <ReviewsSection />
+      <LocationSection />
+      <NewsletterSection />
     </div>
   );
 }
