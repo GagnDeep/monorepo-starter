@@ -29,10 +29,35 @@
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Herencia a Medida.",
+    "description": "Sastre Maestro Faisal Khan. Adalat Bazar, Patiala.",
+    "hero": {
+      "title": "Yaseen Tailor",
+      "subtitle": "Décadas de artesanía inigualable. Ropa de hombre a medida confeccionada a la perfección."
+    },
+    "intro": {
+      "heading": "El Arte de la Confección a Medida",
+      "body": "Cada puntada cuenta una historia de herencia. Durante décadas, Yaseen Tailor ha confeccionado trajes, sherwanis y kurta-pajamas que resisten el paso del tiempo, ganándose un legado de lealtad y confianza absoluta de sus clientes."
+    },
+    "collections": {
+      "heading": "Colecciones Exclusivas",
+      "items": {
+        "suits": { "title": "Trajes a Medida" },
+        "sherwanis": { "title": "Sherwanis Reales" },
+        "kurta": { "title": "Kurta Pajamas" }
+      }
+    },
+    "master": {
+      "heading": "Sastre Maestro",
+      "subheading": "Faisal Khan",
+      "body1": "Con toda una vida dedicada a las artes sartoriales, el Sastre Maestro Faisal Khan aporta una visión intransigente por el detalle en cada prenda.",
+      "body2": "Ubicado en el corazón de Adalat Bazar, Patiala, sus manos han dado forma a los armarios de generaciones."
+    },
+    "global": {
+      "heading": "Alcance Global",
+      "body": "La distancia no es una barrera para la excelencia. Ofrecemos consultas de medidas por teléfono para nuestra clientela internacional, asegurando un ajuste perfecto en cualquier parte del mundo.",
+      "cta": "Contáctenos Ahora"
+    }
   },
   "about": {
     "title": "Acerca de",
