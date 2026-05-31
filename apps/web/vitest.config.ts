@@ -10,5 +10,8 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./vitest.setup.ts'],
     exclude: ['node_modules/**', '.next/**', 'e2e/**'],
+    env: {
+      BETTER_AUTH_SECRET: 'test-secret-test-secret-test-secret-test'
+    }
   },
 });

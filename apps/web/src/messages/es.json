@@ -1,13 +1,24 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Yaseen Tailor",
+    "tagline": "Sastre Maestro en Adalat Bazar, Patiala."
   },
   "nav": {
     "home": "Inicio",
     "about": "Acerca de",
+    "collections": "Colecciones",
+    "measurements": "Medidas",
     "contact": "Contacto",
     "signIn": "Iniciar sesión"
+  },
+  "footer": {
+    "description": "Trajes a medida, sherwanis, kurta-pajamas elaborados con décadas de herencia. Sastre maestro Faisal Khan.",
+    "links": "Enlaces",
+    "contact": "Contáctenos",
+    "address": "Adalat Bazar, Patiala",
+    "phone": "+91 98156 63746",
+    "hours": "Horario: 10:30AM - 8:00PM",
+    "rights": "© 2024 Yaseen Tailor. Todos los derechos reservados."
   },
   "contact": {
     "title": "Contacto",
@@ -54,5 +65,13 @@
     "switch": "Cambiar idioma",
     "en": "Inglés",
     "es": "Español"
+  },
+  "collections": {
+    "title": "Colecciones",
+    "description": "Trajes a medida, sherwanis y atuendos tradicionales elaborados a la perfección."
+  },
+  "measurements": {
+    "title": "Medidas",
+    "description": "Guía para clientes internacionales sobre cómo tomar medidas precisas por teléfono."
   }
 }

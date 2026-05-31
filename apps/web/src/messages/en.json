@@ -1,13 +1,24 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "A best-in-class Next.js starter."
+    "name": "Yaseen Tailor",
+    "tagline": "Master Tailor in Adalat Bazar, Patiala."
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
+    "collections": "Collections",
+    "measurements": "Measurements",
     "contact": "Contact",
     "signIn": "Sign in"
+  },
+  "footer": {
+    "description": "Bespoke suits, sherwanis, kurta-pajamas crafted with decades of heritage. Master tailor Faisal Khan.",
+    "links": "Links",
+    "contact": "Contact Us",
+    "address": "Adalat Bazar, Patiala",
+    "phone": "+91 98156 63746",
+    "hours": "Hours: 10:30AM - 8:00PM",
+    "rights": "© 2024 Yaseen Tailor. All rights reserved."
   },
   "contact": {
     "title": "Contact",
@@ -54,5 +65,13 @@
     "switch": "Switch language",
     "en": "English",
     "es": "Spanish"
+  },
+  "collections": {
+    "title": "Collections",
+    "description": "Bespoke suits, sherwanis, and traditional wear crafted to perfection."
+  },
+  "measurements": {
+    "title": "Measurements",
+    "description": "Guide for international clients to take accurate measurements over the phone."
   }
 }
