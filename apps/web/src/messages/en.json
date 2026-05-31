@@ -5,9 +5,22 @@
   },
   "nav": {
     "home": "Home",
+    "collections": "Collections",
+    "customStitching": "Custom Stitching",
     "about": "About",
     "contact": "Contact",
     "signIn": "Sign in"
+  },
+  "footer": {
+    "description": "Custom-stitched ethnic suits. Shipping to UK and overseas. Fast 2-day domestic delivery.",
+    "links": "Explore",
+    "collections": "Collections",
+    "customStitching": "Custom Stitching",
+    "shipping": "Shipping",
+    "about": "About",
+    "contact": "Contact",
+    "visitUs": "Visit Us",
+    "rights": "All rights reserved."
   },
   "contact": {
     "title": "Contact",
@@ -25,7 +38,8 @@
   },
   "about": {
     "title": "About",
-    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md."
+    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md.",
+    "description": "About YAVA DESIGNS"
   },
   "signIn": {
     "title": "Sign in",
@@ -54,5 +68,17 @@
     "switch": "Switch language",
     "en": "English",
     "es": "Spanish"
+  },
+  "collections": {
+    "title": "collections",
+    "description": "TODO: translate"
+  },
+  "custom-stitching": {
+    "title": "custom-stitching",
+    "description": "TODO: translate"
+  },
+  "shipping": {
+    "title": "shipping",
+    "description": "TODO: translate"
   }
 }

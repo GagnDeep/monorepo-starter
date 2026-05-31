@@ -5,9 +5,14 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
 import { JsonLd, organization, website } from '@/lib/jsonld';
+import { Inter, Playfair_Display } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
 import '../globals.css';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-serif' });
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -42,12 +47,13 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body>
+    <html lang={locale} className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
+      <body className="font-sans">
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             <SiteHeader />
-            <main className="container py-10">{children}</main>
+            <main className="min-h-screen">{children}</main>
+            <SiteFooter />
             <JsonLd data={[organization(), website(locale)]} />
           </NextIntlClientProvider>
         </ThemeProvider>

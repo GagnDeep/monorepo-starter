@@ -2,26 +2,26 @@ import { env } from '@/lib/env';
 import { routing } from '@/i18n/routing';
 
 export const siteConfig = {
-  name: 'Acme',
+  name: 'YAVA DESIGNS',
   url: env.NEXT_PUBLIC_SITE_URL,
   defaultLocale: routing.defaultLocale,
   locales: routing.locales,
   description: {
-    en: 'A best-in-class Next.js starter — i18n, SEO, auth, theming, all wired up.',
-    es: 'Una plantilla Next.js de primer nivel — i18n, SEO, auth y temas, todo conectado.',
+    en: 'Women\'s designer boutique in Chandigarh. Specializing in custom-stitched ethnic suits with fast domestic and international delivery.',
+    es: 'Boutique de diseñador para mujeres en Chandigarh. Especializada en trajes étnicos cosidos a medida con entrega rápida nacional e internacional.',
   } as Record<string, string>,
   og: {
     width: 1200,
     height: 630,
   },
   social: {
-    twitter: '@acme',
+    twitter: '@yavadesigns',
   },
   brand: {
     // Used by the OG image route so colors track the theme.
-    primary: '#18181b', // zinc-900
-    background: '#ffffff',
-    foreground: '#09090b',
+    primary: '#45332c', // From global.css primary
+    background: '#faf8f5',
+    foreground: '#2a2624',
   },
 } as const;
 
