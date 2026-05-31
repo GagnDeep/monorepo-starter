@@ -1,11 +1,11 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Purba Fashion Makers",
+    "tagline": "Sastrería a medida en Urban Estate Phase 1 Market, Patiala."
   },
   "nav": {
     "home": "Inicio",
-    "about": "Acerca de",
+    "about": "Nosotros",
     "contact": "Contacto",
     "signIn": "Iniciar sesión"
   },
@@ -18,25 +18,41 @@
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Purba Fashion Makers",
+    "description": "Especialistas en kurtas Pathani y chaquetas Nehru. Entregas rápidas.",
+    "ctaPrimary": "Pedir por WhatsApp",
+    "ctaSecondary": "Ver Galería"
   },
   "about": {
-    "title": "Acerca de",
-    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+    "title": "Sobre Purba Fashion Makers",
+    "body": "Sastrería a medida en Urban Estate Phase 1 Market, Patiala. Nos especializamos en kurtas Pathani, chaquetas Nehru y acomodamos plazos ajustados."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "body": "Sastrería experta para kurtas Pathani, chaquetas Nehru y más."
+  },
+  "gallery": {
+    "title": "Galería",
+    "body": "Mira nuestras creaciones recientes y trabajos de sastrería a medida."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "body": "Esta es la política de privacidad de Purba Fashion Makers."
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "body": "Estos son los términos de servicio de Purba Fashion Makers."
   },
   "signIn": {
     "title": "Iniciar sesión",
     "description": "Usa tu correo y contraseña para continuar.",
     "email": "Correo",
     "password": "Contraseña",
-    "submit": "Iniciar sesión",
+    "submit": "Entrar",
     "register": "Crear una cuenta",
     "errors": {
       "invalid": "Credenciales inválidas.",
-      "unknown": "Algo salió mal. Inténtalo de nuevo."
+      "unknown": "Algo salió mal. Por favor, inténtalo de nuevo."
     }
   },
   "notFound": {

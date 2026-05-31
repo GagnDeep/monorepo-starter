@@ -1,11 +1,11 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "A best-in-class Next.js starter."
+    "name": "Purba Fashion Makers",
+    "tagline": "Custom tailoring shop in Urban Estate Phase 1 Market, Patiala."
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "contact": "Contact",
     "signIn": "Sign in"
   },
@@ -18,14 +18,30 @@
     "submit": "Send message"
   },
   "home": {
-    "title": "Ship faster with a starter that already thought of everything.",
-    "description": "TypeScript, App Router, i18n, SEO, auth, and a themable design system — all wired up.",
-    "ctaPrimary": "Get started",
-    "ctaSecondary": "Read the docs"
+    "title": "Purba Fashion Makers",
+    "description": "Specializing in Pathani kurtas and Nehru jackets. Fast deadline accommodation.",
+    "ctaPrimary": "Order on WhatsApp",
+    "ctaSecondary": "View Gallery"
   },
   "about": {
-    "title": "About",
-    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md."
+    "title": "About Purba Fashion Makers",
+    "body": "Custom tailoring shop in Urban Estate Phase 1 Market, Patiala. We specialize in Pathani kurtas, Nehru jackets, and fast deadline accommodation."
+  },
+  "services": {
+    "title": "Our Services",
+    "body": "Expert tailoring for Pathani kurtas, Nehru jackets, and more."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "body": "View our recent creations and custom tailoring work."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "body": "This is the privacy policy for Purba Fashion Makers."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "body": "These are the terms of service for Purba Fashion Makers."
   },
   "signIn": {
     "title": "Sign in",

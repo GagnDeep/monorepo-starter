@@ -1,27 +1,25 @@
-import { env } from '@/lib/env';
 import { routing } from '@/i18n/routing';
 
 export const siteConfig = {
-  name: 'Acme',
-  url: env.NEXT_PUBLIC_SITE_URL,
+  name: 'Purba Fashion Makers',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
   defaultLocale: routing.defaultLocale,
   locales: routing.locales,
   description: {
-    en: 'A best-in-class Next.js starter — i18n, SEO, auth, theming, all wired up.',
-    es: 'Una plantilla Next.js de primer nivel — i18n, SEO, auth y temas, todo conectado.',
+    en: 'Custom tailoring shop in Urban Estate Phase 1 Market, Patiala. Specialty: Pathani kurtas, Nehru jackets, WhatsApp ordering, fast deadline accommodation.',
+    es: 'Sastrería a medida en Urban Estate Phase 1 Market, Patiala. Especialidad: kurtas Pathani, chaquetas Nehru, pedidos por WhatsApp, entrega rápida.',
   } as Record<string, string>,
   og: {
     width: 1200,
     height: 630,
   },
   social: {
-    twitter: '@acme',
+    twitter: '@purbafashion',
   },
   brand: {
-    // Used by the OG image route so colors track the theme.
-    primary: '#18181b', // zinc-900
-    background: '#ffffff',
-    foreground: '#09090b',
+    primary: '#f59e0b', // amber-500
+    background: '#fefce8', // yellow-50
+    foreground: '#1e293b', // slate-800
   },
 } as const;
 
