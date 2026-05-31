@@ -1,31 +1,41 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Gladies Boutique",
+    "tagline": "Boutique de trajes de diseñador cerca de Police Station Road, Tripuri, Patiala."
   },
   "nav": {
     "home": "Inicio",
+    "collection": "Colección",
+    "services": "Servicios",
     "about": "Acerca de",
     "contact": "Contacto",
     "signIn": "Iniciar sesión"
   },
   "contact": {
     "title": "Contacto",
-    "description": "Envíanos un mensaje y te responderemos pronto.",
+    "description": "Visítanos o envía un mensaje para consultas.",
     "name": "Tu nombre",
     "email": "Correo electrónico",
     "message": "Tu mensaje",
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Colección Festiva y Trajes de Diseñador",
+    "description": "Especializados en trajes de diseñador cosidos y telas premium sin coser.",
+    "ctaPrimary": "Explorar Colección",
+    "ctaSecondary": "Visítanos"
+  },
+  "collection": {
+    "title": "Nuestra Colección",
+    "description": "Descubre nuestras últimas colecciones festivas y trajes elegantes."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "description": "Costura experta y entrega a tiempo para tu atuendo perfecto."
   },
   "about": {
-    "title": "Acerca de",
-    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+    "title": "Acerca de Nosotros",
+    "body": "Gladies Boutique es tu destino principal de trajes de diseñador en Tripuri, Patiala."
   },
   "signIn": {
     "title": "Iniciar sesión",
@@ -54,5 +64,13 @@
     "switch": "Cambiar idioma",
     "en": "Inglés",
     "es": "Español"
+  },
+  "privacy": {
+    "title": "privacy",
+    "description": "TODO: translate"
+  },
+  "terms": {
+    "title": "terms",
+    "description": "TODO: translate"
   }
 }

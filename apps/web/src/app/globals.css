@@ -3,15 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/*
- * Theme tokens — Tailwind v4 CSS-first config.
- * Edit the HSL values under :root / .dark to rebrand the entire app.
- * The @theme inline block exposes them as Tailwind color utilities (bg-primary, text-foreground, etc.).
- */
-
-/* AGENT-NOTE: @theme inline exposes the HSL vars below as Tailwind utilities.
-   To rebrand: edit the --background / --foreground / --primary etc. under :root and .dark.
-   Don't add a tailwind.config.{js,ts} — v4 is CSS-first by design. */
 @theme inline {
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -47,83 +38,85 @@
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
+
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
 }
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
+  /* Festive Theme: Cream background, deep charcoal text, deep red primary, gold accent */
+  --background: 40 33% 98%; /* Cream: #FAF9F6 */
+  --foreground: 0 0% 15%; /* Deep Charcoal: #262626 */
 
   --card: 0 0% 100%;
-  --card-foreground: 240 10% 3.9%;
+  --card-foreground: 0 0% 15%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 240 10% 3.9%;
+  --popover-foreground: 0 0% 15%;
 
-  --primary: 240 5.9% 10%;
-  --primary-foreground: 0 0% 98%;
+  --primary: 348 83% 40%; /* Deep Festive Red: #BA112A */
+  --primary-foreground: 40 33% 98%;
 
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
+  --secondary: 43 74% 49%; /* Rich Gold: #D99A1A */
+  --secondary-foreground: 40 33% 98%;
 
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
+  --muted: 40 10% 90%;
+  --muted-foreground: 0 0% 40%;
 
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
+  --accent: 43 74% 49%;
+  --accent-foreground: 40 33% 98%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 240 5.9% 10%;
+  --border: 40 10% 85%;
+  --input: 40 10% 85%;
+  --ring: 348 83% 40%;
 
-  /* Brand tokens — change these to rebrand */
-  --brand: 240 5.9% 10%;
-  --brand-foreground: 0 0% 98%;
+  --brand: 348 83% 40%;
+  --brand-foreground: 40 33% 98%;
 
-  --radius: 0.5rem;
+  --radius: 0.25rem;
 }
 
 .dark {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
+  /* Dark Mode: Deep Burgundy/Charcoal background, cream text */
+  --background: 350 20% 10%; /* Very dark warm gray/burgundy */
+  --foreground: 40 33% 98%;
 
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
+  --card: 350 20% 12%;
+  --card-foreground: 40 33% 98%;
 
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
+  --popover: 350 20% 12%;
+  --popover-foreground: 40 33% 98%;
 
-  --primary: 0 0% 98%;
-  --primary-foreground: 240 5.9% 10%;
+  --primary: 348 83% 50%; /* Brighter Red for dark mode */
+  --primary-foreground: 40 33% 98%;
 
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
+  --secondary: 43 80% 60%; /* Brighter Gold */
+  --secondary-foreground: 350 20% 10%;
 
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
+  --muted: 350 10% 20%;
+  --muted-foreground: 40 10% 70%;
 
-  --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
+  --accent: 43 80% 60%;
+  --accent-foreground: 350 20% 10%;
 
-  --destructive: 0 62.8% 30.6%;
+  --destructive: 0 62.8% 50.6%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  --border: 350 10% 20%;
+  --input: 350 10% 20%;
+  --ring: 43 80% 60%;
 
-  --brand: 0 0% 98%;
-  --brand-foreground: 240 5.9% 10%;
+  --brand: 348 83% 50%;
+  --brand-foreground: 40 33% 98%;
 }
 
-/* AGENT-NOTE: Tailwind v4 removed the `container.center` / `container.padding`
-   config options. Centering + gutters are restored by extending the utility here
-   (CSS-first equivalent of v3's `container: { center: true, padding: '2rem' }`). */
 @utility container {
   margin-inline: auto;
   padding-inline: 2rem;
+  max-width: 1400px;
 }
 
 @layer base {
@@ -131,6 +124,9 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground antialiased font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
   }
 }
