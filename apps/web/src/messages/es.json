@@ -1,31 +1,102 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Gladies Boutique",
+    "tagline": "Boutique de trajes de diseñador cerca de Police Station Road, Tripuri, Patiala."
   },
   "nav": {
     "home": "Inicio",
+    "collection": "Colección",
+    "services": "Servicios",
     "about": "Acerca de",
     "contact": "Contacto",
     "signIn": "Iniciar sesión"
   },
   "contact": {
     "title": "Contacto",
-    "description": "Envíanos un mensaje y te responderemos pronto.",
+    "description": "Visítanos o envía un mensaje para consultas.",
     "name": "Tu nombre",
     "email": "Correo electrónico",
     "message": "Tu mensaje",
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Colección Festiva y Trajes de Diseñador",
+    "description": "Especializados en trajes de diseñador cosidos y telas premium sin coser.",
+    "ctaPrimary": "Explorar Colección",
+    "ctaSecondary": "Visítanos",
+    "specialties": {
+      "title": "Nuestras Especialidades",
+      "stitched": {
+        "title": "Trajes de Diseñador Cosidos",
+        "description": "Trajes confeccionados por expertos a la perfección para cualquier ocasión."
+      },
+      "unstitched": {
+        "title": "Telas Premium",
+        "description": "Una amplia variedad de telas sin coser de alta calidad para elegir."
+      },
+      "festive": {
+        "title": "Colección Festiva",
+        "description": "Diseños exclusivos seleccionados específicamente para tus celebraciones."
+      },
+      "delivery": {
+        "title": "Entrega a Tiempo",
+        "description": "Valoramos tu tiempo. Entrega garantizada exactamente cuando se prometió."
+      }
+    },
+    "featured": {
+      "title": "Seleccionado para la Temporada Festiva",
+      "description": "Explora nuestra selección de atuendos elegantes y de celebración diseñados para hacerte destacar."
+    },
+    "reviews": {
+      "title": "Amado por nuestros Clientes"
+    },
+    "about": {
+      "title": "El Arte de la Sastrería Elegante",
+      "description": "Ubicada cerca de Police Station Road en Tripuri, Patiala, Gladies Boutique es tu destino de moda a medida. Combinamos la artesanía tradicional con diseños contemporáneos.",
+      "cta": "Conoce Más Sobre Nosotros"
+    },
+    "instagram": {
+      "title": "Sigue Nuestro Viaje",
+      "handle": "@gladiesboutique"
+    },
+    "ctaSection": {
+      "title": "¿Listo para tu atuendo perfecto?",
+      "description": "Ya sea que necesites un traje a medida o tela sin coser premium, estamos aquí para ayudarte a lucir lo mejor posible.",
+      "buttonPrimary": "Reservar una Cita",
+      "buttonSecondary": "Ver Nuestros Servicios"
+    }
+  },
+  "collection": {
+    "title": "Nuestra Colección",
+    "description": "Descubre nuestras últimas colecciones festivas y trajes elegantes.",
+    "items": {
+      "redSilk": "Traje Festivo de Seda Roja",
+      "goldEmbroidered": "Traje Nupcial Bordado en Oro",
+      "festiveLehenga": "Lehenga Festiva",
+      "unstitchedCotton": "Algodón Premium Sin Coser",
+      "floralGeorgette": "Traje Floral de Georgette",
+      "velvetSuit": "Conjunto de Terciopelo de Invierno"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "description": "Costura experta y entrega a tiempo para tu atuendo perfecto.",
+    "stitching": {
+      "title": "Costura a Medida",
+      "description": "Nuestros maestros sastres aseguran que cada prenda esté cosida a tus medidas exactas, proporcionando un ajuste impecable que favorece tu silueta. Prestamos atención a cada detalle."
+    },
+    "delivery": {
+      "title": "Entrega a Tiempo",
+      "description": "Entendemos la importancia del tiempo, especialmente para ocasiones festivas y bodas. Garantizamos que tu atuendo estará listo exactamente cuando se prometió."
+    },
+    "styling": {
+      "title": "Estilo Personalizado",
+      "description": "¿No estás seguro de qué ponerte? Nuestro personal experimentado está aquí para ayudarte a elegir la tela, el color y el diseño correctos que complementen tu estilo personal."
+    }
   },
   "about": {
-    "title": "Acerca de",
-    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+    "title": "Acerca de Nosotros",
+    "body": "Gladies Boutique es tu destino principal de trajes de diseñador en Tripuri, Patiala."
   },
   "signIn": {
     "title": "Iniciar sesión",
@@ -54,5 +125,13 @@
     "switch": "Cambiar idioma",
     "en": "Inglés",
     "es": "Español"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "description": "Detalles de nuestra política de privacidad."
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "description": "Nuestros términos y condiciones."
   }
 }
