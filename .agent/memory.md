@@ -14,11 +14,12 @@ Build a website for Gladies Boutique, a designer suit boutique near Police Stati
 - [x] Build a responsive Navbar + Footer.
 - [x] Create EVERY nav/footer route as a real (stub) page under `apps/web/src/app` so NO link ever 404s.
 
-## Phase 1: Home (Next up)
-- [ ] Build Home sections in batches, purposeful GSAP scroll animations, transitions.
+## Phase 1: Home (Batch 1 Completed, Batch 2 Next)
+- [x] Build 5 Home sections (Hero, Specialties, Featured, Reviews, AboutPreview) with GSAP scroll animations.
+- [ ] Build remaining Home sections (e.g., Contact CTA, Services drill-down, Instagram feed grid, Map/Location).
 
 ## Phase 2: SEO pages
-- [ ] Flesh out routed pages.
+- [ ] Flesh out routed pages (/collection, /services, /about, /contact).
 
 ## Phase 3: Polish
 - [ ] Refine motion, verify everything.
@@ -31,4 +32,4 @@ Build a website for Gladies Boutique, a designer suit boutique near Police Stati
 - Fonts: Inter (sans), Playfair Display (serif)
 
 ## Open Issues
-None currently. Ready for Phase 1.
+None currently. Ready to finish Phase 1 (Home).

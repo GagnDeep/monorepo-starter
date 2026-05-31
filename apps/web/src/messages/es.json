@@ -23,7 +23,38 @@
     "title": "Colección Festiva y Trajes de Diseñador",
     "description": "Especializados en trajes de diseñador cosidos y telas premium sin coser.",
     "ctaPrimary": "Explorar Colección",
-    "ctaSecondary": "Visítanos"
+    "ctaSecondary": "Visítanos",
+    "specialties": {
+      "title": "Nuestras Especialidades",
+      "stitched": {
+        "title": "Trajes de Diseñador Cosidos",
+        "description": "Trajes confeccionados por expertos a la perfección para cualquier ocasión."
+      },
+      "unstitched": {
+        "title": "Telas Premium",
+        "description": "Una amplia variedad de telas sin coser de alta calidad para elegir."
+      },
+      "festive": {
+        "title": "Colección Festiva",
+        "description": "Diseños exclusivos seleccionados específicamente para tus celebraciones."
+      },
+      "delivery": {
+        "title": "Entrega a Tiempo",
+        "description": "Valoramos tu tiempo. Entrega garantizada exactamente cuando se prometió."
+      }
+    },
+    "featured": {
+      "title": "Seleccionado para la Temporada Festiva",
+      "description": "Explora nuestra selección de atuendos elegantes y de celebración diseñados para hacerte destacar."
+    },
+    "reviews": {
+      "title": "Amado por nuestros Clientes"
+    },
+    "about": {
+      "title": "El Arte de la Sastrería Elegante",
+      "description": "Ubicada cerca de Police Station Road en Tripuri, Patiala, Gladies Boutique es tu destino de moda a medida. Combinamos la artesanía tradicional con diseños contemporáneos.",
+      "cta": "Conoce Más Sobre Nosotros"
+    }
   },
   "collection": {
     "title": "Nuestra Colección",
@@ -66,11 +97,11 @@
     "es": "Español"
   },
   "privacy": {
-    "title": "privacy",
-    "description": "TODO: translate"
+    "title": "Política de Privacidad",
+    "description": "Detalles de nuestra política de privacidad."
   },
   "terms": {
-    "title": "terms",
-    "description": "TODO: translate"
+    "title": "Términos de Servicio",
+    "description": "Nuestros términos y condiciones."
   }
 }

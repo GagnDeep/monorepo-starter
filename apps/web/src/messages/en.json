@@ -23,7 +23,38 @@
     "title": "Festive Collection & Designer Suits",
     "description": "Specializing in stitched designer suits and premium unstitched fabrics.",
     "ctaPrimary": "Explore Collection",
-    "ctaSecondary": "Visit Us"
+    "ctaSecondary": "Visit Us",
+    "specialties": {
+      "title": "Our Specialties",
+      "stitched": {
+        "title": "Stitched Designer Suits",
+        "description": "Expertly tailored suits crafted to perfection for any occasion."
+      },
+      "unstitched": {
+        "title": "Premium Fabrics",
+        "description": "A wide variety of high-quality unstitched fabrics to choose from."
+      },
+      "festive": {
+        "title": "Festive Collection",
+        "description": "Exclusive designs curated specifically for your celebrations."
+      },
+      "delivery": {
+        "title": "On-Time Delivery",
+        "description": "We value your time. Guaranteed delivery exactly when promised."
+      }
+    },
+    "featured": {
+      "title": "Curated for the Festive Season",
+      "description": "Explore our handpicked selection of elegant, celebratory attire designed to make you stand out."
+    },
+    "reviews": {
+      "title": "Loved by our Clients"
+    },
+    "about": {
+      "title": "The Art of Elegant Tailoring",
+      "description": "Located near Police Station Road in Tripuri, Patiala, Gladies Boutique is your destination for bespoke fashion. We combine traditional craftsmanship with contemporary designs.",
+      "cta": "Learn More About Us"
+    }
   },
   "collection": {
     "title": "Our Collection",
@@ -66,11 +97,11 @@
     "es": "Spanish"
   },
   "privacy": {
-    "title": "privacy",
-    "description": "TODO: translate"
+    "title": "Privacy Policy",
+    "description": "Our privacy policy details."
   },
   "terms": {
-    "title": "terms",
-    "description": "TODO: translate"
+    "title": "Terms of Service",
+    "description": "Our terms and conditions."
   }
 }
