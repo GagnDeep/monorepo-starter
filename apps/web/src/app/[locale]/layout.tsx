@@ -49,11 +49,11 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className={cn(inter.variable, playfair.variable)}>
-      <body className="min-h-screen bg-background font-sans antialiased selection:bg-brand/20 selection:text-brand">
+      <body className="min-h-screen w-full overflow-x-hidden bg-background font-sans antialiased selection:bg-brand/20 selection:text-brand">
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             <SiteHeader />
-            <main className="flex-1">{children}</main>
+            <main className="flex w-full flex-col">{children}</main>
             <SiteFooter />
             <JsonLd data={[organization(), website(locale)]} />
           </NextIntlClientProvider>
