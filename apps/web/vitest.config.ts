@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react';
 import { resolve } from 'node:path';
 import { loadEnv } from 'vite';
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ mode }: any) => {
   const env = loadEnv(mode, process.cwd(), '');
   return {
-    plugins: [react()],
+    plugins: [react() as any],
     resolve: { alias: { '@': resolve(__dirname, 'src') } },
     test: {
       environment: 'jsdom',
