@@ -19,13 +19,35 @@
   },
   "home": {
     "title": "Purba Fashion Makers",
-    "description": "Especialistas en kurtas Pathani y chaquetas Nehru. Entregas rápidas.",
+    "description": "Sastrería a medida en Urban Estate Phase 1 Market, Patiala. Especialistas en kurtas Pathani y chaquetas Nehru. Entregas rápidas disponibles.",
+    "heroLine1": "Sastres Maestros.",
+    "heroLine2": "Herencia Moderna.",
     "ctaPrimary": "Pedir por WhatsApp",
-    "ctaSecondary": "Ver Galería"
+    "ctaSecondary": "Nuestras Especialidades",
+    "specialties": {
+      "title": "Nuestro Arte Único",
+      "subtitle": "Sastrería de precisión que honra la tradición mientras adopta sensibilidades modernas.",
+      "item1Title": "Kurtas Pathani",
+      "item1Desc": "Cortadas y cosidas por expertos para un ajuste y comodidad perfectos, ideales para cualquier ocasión.",
+      "item2Title": "Chaquetas Nehru",
+      "item2Desc": "Estructura inmaculada y acabados de primera calidad que elevan instantáneamente tu armario étnico."
+    },
+    "about": {
+      "title": "El Arte de la Sastrería",
+      "p1": "Ubicada en el corazón de Urban Estate Phase 1 Market, Patiala, Purba Fashion Makers ha definido la elegancia a medida.",
+      "p2": "No solo cosemos ropa; creamos confianza. Nuestra especialización en kurtas Pathani y chaquetas Nehru surge de años de dedicación para entender el ajuste perfecto, la tela adecuada y los detalles sutiles que hacen que una prenda sea verdaderamente tuya.",
+      "p3": "Ya sea que tengas una boda mañana o un festival la próxima semana, nuestro servicio de plazos rápidos asegura que nunca tengas que comprometer tu apariencia. Operamos con un enfoque centrado en WhatsApp, haciendo que los pedidos y las pruebas sean fluidos para nuestros clientes."
+    },
+    "cta": {
+      "title": "¿Listo para tu ajuste perfecto?",
+      "subtitle": "Evita la espera. Envíanos un mensaje directamente por WhatsApp para discutir telas, medidas y plazos.",
+      "button": "Chatea con nuestro Sastre Maestro",
+      "note": "Acomodamos plazos rápidos para eventos urgentes."
+    }
   },
   "about": {
     "title": "Sobre Purba Fashion Makers",
-    "body": "Sastrería a medida en Urban Estate Phase 1 Market, Patiala. Nos especializamos en kurtas Pathani, chaquetas Nehru y acomodamos plazos ajustados."
+    "body": "Sastrería a medida en Urban Estate Phase 1 Market, Patiala. Nos especializamos en kurtas Pathani, chaquetas Nehru y plazos rápidos."
   },
   "services": {
     "title": "Nuestros Servicios",

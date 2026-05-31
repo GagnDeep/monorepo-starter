@@ -19,9 +19,31 @@
   },
   "home": {
     "title": "Purba Fashion Makers",
-    "description": "Specializing in Pathani kurtas and Nehru jackets. Fast deadline accommodation.",
+    "description": "Custom tailoring shop in Urban Estate Phase 1 Market, Patiala. We specialize in Pathani kurtas and Nehru jackets. Fast deadline accommodation available.",
+    "heroLine1": "Master Tailors.",
+    "heroLine2": "Modern Heritage.",
     "ctaPrimary": "Order on WhatsApp",
-    "ctaSecondary": "View Gallery"
+    "ctaSecondary": "Our Specialties",
+    "specialties": {
+      "title": "Our Signature Craft",
+      "subtitle": "Precision tailoring that honors tradition while embracing modern sensibilities.",
+      "item1Title": "Pathani Kurtas",
+      "item1Desc": "Expertly cut and stitched for the perfect drape and comfort, suitable for any occasion.",
+      "item2Title": "Nehru Jackets",
+      "item2Desc": "Immaculate structuring and premium finishing that instantly elevates your ethnic wardrobe."
+    },
+    "about": {
+      "title": "The Art of Tailoring",
+      "p1": "Located in the heart of Urban Estate Phase 1 Market, Patiala, Purba Fashion Makers has been defining bespoke elegance.",
+      "p2": "We don't just stitch clothes; we craft confidence. Our specialization in Pathani kurtas and Nehru jackets comes from years of dedication to understanding the perfect fit, the right fabric, and the subtle details that make a garment truly yours.",
+      "p3": "Whether you have a wedding tomorrow or a festival next week, our fast deadline accommodation ensures you never have to compromise on looking your absolute best. We operate with a WhatsApp-first approach, making ordering and fittings seamless for our clients."
+    },
+    "cta": {
+      "title": "Ready for your perfect fit?",
+      "subtitle": "Skip the wait. Message us directly on WhatsApp to discuss fabrics, measurements, and deadlines.",
+      "button": "Chat with our Master Tailor",
+      "note": "We accommodate fast deadlines for urgent events."
+    }
   },
   "about": {
     "title": "About Purba Fashion Makers",
