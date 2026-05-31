@@ -7,7 +7,21 @@ import { buildMetadata } from '@/lib/seo';
 import { JsonLd, organization, website } from '@/lib/jsonld';
 import { ThemeProvider } from '@/components/theme-provider';
 import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
+import { Playfair_Display, Manrope } from 'next/font/google';
 import '../globals.css';
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair',
+  display: 'swap',
+});
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  variable: '--font-manrope',
+  display: 'swap',
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -20,7 +34,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return buildMetadata({
-    title: 'Acme',
+    title: 'Mutiyar the Fashion Studio',
     path: '/',
     locale,
   });
@@ -42,12 +56,15 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning className={`${playfair.variable} ${manrope.variable}`}>
       <body>
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
-            <SiteHeader />
-            <main className="container py-10">{children}</main>
+            <div className="flex min-h-screen flex-col">
+              <SiteHeader />
+              <main className="flex-1">{children}</main>
+              <SiteFooter />
+            </div>
             <JsonLd data={[organization(), website(locale)]} />
           </NextIntlClientProvider>
         </ThemeProvider>

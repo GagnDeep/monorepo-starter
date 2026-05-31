@@ -2,26 +2,26 @@ import { env } from '@/lib/env';
 import { routing } from '@/i18n/routing';
 
 export const siteConfig = {
-  name: 'Acme',
+  name: 'Mutiyar the Fashion Studio',
   url: env.NEXT_PUBLIC_SITE_URL,
   defaultLocale: routing.defaultLocale,
   locales: routing.locales,
   description: {
-    en: 'A best-in-class Next.js starter — i18n, SEO, auth, theming, all wired up.',
-    es: 'Una plantilla Next.js de primer nivel — i18n, SEO, auth y temas, todo conectado.',
+    en: 'A women\'s stitching boutique in Urban Estate Phase 2, Patiala. Customised suits, vibrant color collections, and international standard stitching.',
+    es: 'Boutique de costura para mujeres en Urban Estate Phase 2, Patiala. Trajes personalizados, colecciones de colores vibrantes y costura de estándar internacional.',
   } as Record<string, string>,
   og: {
     width: 1200,
     height: 630,
   },
   social: {
-    twitter: '@acme',
+    twitter: '@mutiyar',
   },
   brand: {
-    // Used by the OG image route so colors track the theme.
-    primary: '#18181b', // zinc-900
-    background: '#ffffff',
-    foreground: '#09090b',
+    // Deep Wine/Magenta primary
+    primary: '#8A2846',
+    background: '#FCF9F3',
+    foreground: '#3E1F2C',
   },
 } as const;
 

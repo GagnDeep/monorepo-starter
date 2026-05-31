@@ -1,47 +1,81 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Mutiyar the Fashion Studio",
+    "tagline": "Trajes personalizados y costura exclusiva para mujeres."
   },
   "nav": {
     "home": "Inicio",
-    "about": "Acerca de",
+    "about": "Nosotros",
+    "services": "Servicios",
     "contact": "Contacto",
     "signIn": "Iniciar sesión"
   },
   "contact": {
-    "title": "Contacto",
-    "description": "Envíanos un mensaje y te responderemos pronto.",
+    "title": "Contáctanos",
+    "description": "Nos encantaría saber de ti. Visita nuestro estudio o envíanos un mensaje.",
     "name": "Tu nombre",
     "email": "Correo electrónico",
     "message": "Tu mensaje",
-    "submit": "Enviar mensaje"
+    "submit": "Enviar mensaje",
+    "visit": "Visita nuestro estudio",
+    "address": "Urban Estate Phase 2, Patiala, Punjab",
+    "hours": "Lun-Sáb: 11:00 AM - 2:00 PM & 4:00 PM - 8:00 PM",
+    "phoneLabel": "Teléfono",
+    "phone": "+91 88926 94846"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Trajes personalizados y costura exclusiva para mujeres.",
+    "description": "Bienvenida a Mutiyar the Fashion Studio. Colecciones de colores vibrantes, diseños de tendencia y estándares internacionales.",
+    "ctaPrimary": "Ver Colección",
+    "ctaSecondary": "Reservar una cita"
   },
   "about": {
-    "title": "Acerca de",
-    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+    "title": "Nuestra Historia",
+    "subtitle": "Creando elegancia desde el primer día",
+    "body1": "En Mutiyar the Fashion Studio, creemos que cada mujer merece un traje que se adapte perfectamente a su forma, estilo y personalidad. Ubicados en el corazón de Urban Estate Phase 2, Patiala, nos especializamos en costura personalizada de alta gama.",
+    "body2": "Con una calificación de 4.6 estrellas de nuestras queridas clientas, nos enorgullecemos de la entrega a tiempo y de mantener un estándar internacional de calidad. Ya seas local o pidas desde Canadá, nuestras colecciones vibrantes garantizan que destacarás.",
+    "stats": {
+      "rating": "4.6★",
+      "ratingLabel": "Satisfacción",
+      "delivery": "100%",
+      "deliveryLabel": "Entrega a tiempo",
+      "global": "Global",
+      "globalLabel": "Envíos disponibles"
+    }
+  },
+  "services": {
+    "title": "Servicios a Medida",
+    "subtitle": "Confeccionado a la perfección",
+    "items": [
+      {
+        "title": "Trajes Personalizados",
+        "description": "Hacemos realidad tu visión. Cosemos trajes perfectamente adaptados a tus medidas y preferencias."
+      },
+      {
+        "title": "Entrega Internacional",
+        "description": "Atendemos a clientas internacionales, particularmente en Canadá. Auténtica calidad boutique india en tu puerta."
+      },
+      {
+        "title": "Ajuar Nupcial",
+        "description": "Costura intrincada especializada para novias. Colores vibrantes y adornos de moda."
+      }
+    ]
   },
   "signIn": {
     "title": "Iniciar sesión",
     "description": "Usa tu correo y contraseña para continuar.",
-    "email": "Correo",
+    "email": "Correo electrónico",
     "password": "Contraseña",
     "submit": "Iniciar sesión",
     "register": "Crear una cuenta",
     "errors": {
       "invalid": "Credenciales inválidas.",
-      "unknown": "Algo salió mal. Inténtalo de nuevo."
+      "unknown": "Algo salió mal. Por favor, inténtalo de nuevo."
     }
   },
   "notFound": {
     "title": "Página no encontrada",
-    "description": "La página que buscas no existe.",
+    "description": "La página que buscabas no existe.",
     "back": "Volver al inicio"
   },
   "theme": {

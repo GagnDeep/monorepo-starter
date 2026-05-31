@@ -1,31 +1,65 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "A best-in-class Next.js starter."
+    "name": "Mutiyar the Fashion Studio",
+    "tagline": "Customised suits and exclusive stitching for women."
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
+    "services": "Services",
     "contact": "Contact",
     "signIn": "Sign in"
   },
   "contact": {
-    "title": "Contact",
-    "description": "Send us a message and we'll get back to you.",
+    "title": "Contact Us",
+    "description": "We would love to hear from you. Visit our studio or drop us a message.",
     "name": "Your name",
     "email": "Email address",
     "message": "Your message",
-    "submit": "Send message"
+    "submit": "Send message",
+    "visit": "Visit Our Studio",
+    "address": "Urban Estate Phase 2, Patiala, Punjab",
+    "hours": "Mon-Sat: 11:00 AM - 2:00 PM & 4:00 PM - 8:00 PM",
+    "phoneLabel": "Phone",
+    "phone": "+91 88926 94846"
   },
   "home": {
-    "title": "Ship faster with a starter that already thought of everything.",
-    "description": "TypeScript, App Router, i18n, SEO, auth, and a themable design system — all wired up.",
-    "ctaPrimary": "Get started",
-    "ctaSecondary": "Read the docs"
+    "title": "Customised Suits & Exclusive Stitching for Women.",
+    "description": "Welcome to Mutiyar the Fashion Studio. Vibrant color collections, trendy designs, and international standards.",
+    "ctaPrimary": "View Collection",
+    "ctaSecondary": "Book an Appointment"
   },
   "about": {
-    "title": "About",
-    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md."
+    "title": "Our Story",
+    "subtitle": "Crafting Elegance Since Day One",
+    "body1": "At Mutiyar the Fashion Studio, we believe that every woman deserves a suit that is tailored perfectly to her shape, style, and personality. Located in the heart of Urban Estate Phase 2, Patiala, we specialize in high-end customized stitching.",
+    "body2": "With a 4.6-star rating from our beloved clients, we pride ourselves on on-time delivery and maintaining an international standard of quality. Whether you are local or ordering from Canada, our vibrant collections and trendy designs guarantee you'll stand out in any crowd.",
+    "stats": {
+      "rating": "4.6★",
+      "ratingLabel": "Client Satisfaction",
+      "delivery": "100%",
+      "deliveryLabel": "On-Time Delivery",
+      "global": "Global",
+      "globalLabel": "Shipping Available"
+    }
+  },
+  "services": {
+    "title": "Bespoke Services",
+    "subtitle": "Tailored to Perfection",
+    "items": [
+      {
+        "title": "Customised Suits",
+        "description": "Bring your vision to life. We stitch suits perfectly tailored to your measurements and design preferences."
+      },
+      {
+        "title": "International Delivery",
+        "description": "We cater to international clients, particularly in Canada. Get authentic Indian boutique quality delivered to your doorstep."
+      },
+      {
+        "title": "Bridal Trousseau",
+        "description": "Specialized intricate stitching for bridal wear. Vibrant colors and trendy embellishments."
+      }
+    ]
   },
   "signIn": {
     "title": "Sign in",
