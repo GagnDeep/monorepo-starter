@@ -14,14 +14,20 @@ export function SiteHeader() {
         <Link href="/" className="font-semibold tracking-tight">
           {siteConfig.name}
         </Link>
-        <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-          <Link href="/" className="hover:text-foreground">
+        <nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
+          <Link href="/" className="hover:text-foreground transition-colors">
             {t('home')}
           </Link>
-          <Link href="/about" className="hover:text-foreground">
+          <Link href="/about" className="hover:text-foreground transition-colors">
             {t('about')}
           </Link>
-          <Link href="/contact" className="hover:text-foreground">
+          <Link href="/collections" className="hover:text-foreground transition-colors">
+            {t('collections')}
+          </Link>
+          <Link href="/measurements" className="hover:text-foreground transition-colors">
+            {t('measurements')}
+          </Link>
+          <Link href="/contact" className="hover:text-foreground transition-colors">
             {t('contact')}
           </Link>
         </nav>

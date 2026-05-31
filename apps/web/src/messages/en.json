@@ -1,13 +1,24 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "A best-in-class Next.js starter."
+    "name": "Yaseen Tailor",
+    "tagline": "Master Tailor in Adalat Bazar, Patiala."
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
+    "collections": "Collections",
+    "measurements": "Measurements",
     "contact": "Contact",
     "signIn": "Sign in"
+  },
+  "footer": {
+    "description": "Bespoke suits, sherwanis, kurta-pajamas crafted with decades of heritage. Master tailor Faisal Khan.",
+    "links": "Links",
+    "contact": "Contact Us",
+    "address": "Adalat Bazar, Patiala",
+    "phone": "+91 98156 63746",
+    "hours": "Hours: 10:30AM - 8:00PM",
+    "rights": "© 2024 Yaseen Tailor. All rights reserved."
   },
   "contact": {
     "title": "Contact",
@@ -18,10 +29,35 @@
     "submit": "Send message"
   },
   "home": {
-    "title": "Ship faster with a starter that already thought of everything.",
-    "description": "TypeScript, App Router, i18n, SEO, auth, and a themable design system — all wired up.",
-    "ctaPrimary": "Get started",
-    "ctaSecondary": "Read the docs"
+    "title": "Bespoke Heritage.",
+    "description": "Master Tailor Faisal Khan. Adalat Bazar, Patiala.",
+    "hero": {
+      "title": "Yaseen Tailor",
+      "subtitle": "Decades of unparalleled craftsmanship. Bespoke men's wear tailored to perfection."
+    },
+    "intro": {
+      "heading": "The Art of Bespoke",
+      "body": "Every stitch tells a story of heritage. For decades, Yaseen Tailor has crafted suits, sherwanis, and kurta-pajamas that stand the test of time, earning a legacy of client retention and absolute trust."
+    },
+    "collections": {
+      "heading": "Signature Collections",
+      "items": {
+        "suits": { "title": "Bespoke Suits" },
+        "sherwanis": { "title": "Royal Sherwanis" },
+        "kurta": { "title": "Kurta Pajamas" }
+      }
+    },
+    "master": {
+      "heading": "Master Tailor",
+      "subheading": "Faisal Khan",
+      "body1": "With a lifetime dedicated to the sartorial arts, Master Tailor Faisal Khan brings an uncompromising eye for detail to every garment.",
+      "body2": "Located in the heart of Adalat Bazar, Patiala, his hands have shaped the wardrobes of generations."
+    },
+    "global": {
+      "heading": "Global Reach",
+      "body": "Distance is no barrier to excellence. We offer over-the-phone measurement consultations for our international clientele, ensuring a perfect fit anywhere in the world.",
+      "cta": "Contact Us Now"
+    }
   },
   "about": {
     "title": "About",
@@ -54,5 +90,13 @@
     "switch": "Switch language",
     "en": "English",
     "es": "Spanish"
+  },
+  "collections": {
+    "title": "Collections",
+    "description": "Bespoke suits, sherwanis, and traditional wear crafted to perfection."
+  },
+  "measurements": {
+    "title": "Measurements",
+    "description": "Guide for international clients to take accurate measurements over the phone."
   }
 }
