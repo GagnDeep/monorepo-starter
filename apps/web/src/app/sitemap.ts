@@ -4,7 +4,7 @@ import { routing } from '@/i18n/routing';
 
 // AGENT-NOTE: This array is the source of truth for sitemap entries.
 // `pnpm gen:page <route>` appends to it automatically.
-const ROUTES = ['/', '/about', '/contact', '/sign-in'] as const;
+const ROUTES = ['/', '/about', '/contact', '/sign-in', '/collections', '/consultation'] as const;
 
 function abs(path: string) {
   const base = siteConfig.url.replace(/\/$/, '');
