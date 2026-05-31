@@ -1,11 +1,11 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "A best-in-class Next.js starter."
+    "name": "Purba Fashion Makers",
+    "tagline": "Custom tailoring shop in Urban Estate Phase 1 Market, Patiala."
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "contact": "Contact",
     "signIn": "Sign in"
   },
@@ -18,14 +18,101 @@
     "submit": "Send message"
   },
   "home": {
-    "title": "Ship faster with a starter that already thought of everything.",
-    "description": "TypeScript, App Router, i18n, SEO, auth, and a themable design system — all wired up.",
-    "ctaPrimary": "Get started",
-    "ctaSecondary": "Read the docs"
+    "title": "Purba Fashion Makers",
+    "description": "Custom tailoring shop in Urban Estate Phase 1 Market, Patiala. We specialize in Pathani kurtas and Nehru jackets. Fast deadline accommodation available.",
+    "heroLine1": "Master Tailors.",
+    "heroLine2": "Modern Heritage.",
+    "ctaPrimary": "Order on WhatsApp",
+    "ctaSecondary": "Our Specialties",
+    "specialties": {
+      "title": "Our Signature Craft",
+      "subtitle": "Precision tailoring that honors tradition while embracing modern sensibilities.",
+      "item1Title": "Pathani Kurtas",
+      "item1Desc": "Expertly cut and stitched for the perfect drape and comfort, suitable for any occasion.",
+      "item2Title": "Nehru Jackets",
+      "item2Desc": "Immaculate structuring and premium finishing that instantly elevates your ethnic wardrobe."
+    },
+    "about": {
+      "title": "The Art of Tailoring",
+      "p1": "Located in the heart of Urban Estate Phase 1 Market, Patiala, Purba Fashion Makers has been defining bespoke elegance.",
+      "p2": "We don't just stitch clothes; we craft confidence. Our specialization in Pathani kurtas and Nehru jackets comes from years of dedication to understanding the perfect fit, the right fabric, and the subtle details that make a garment truly yours.",
+      "p3": "Whether you have a wedding tomorrow or a festival next week, our fast deadline accommodation ensures you never have to compromise on looking your absolute best. We operate with a WhatsApp-first approach, making ordering and fittings seamless for our clients."
+    },
+    "cta": {
+      "title": "Ready for your perfect fit?",
+      "subtitle": "Skip the wait. Message us directly on WhatsApp to discuss fabrics, measurements, and deadlines.",
+      "button": "Chat with our Master Tailor",
+      "note": "We accommodate fast deadlines for urgent events."
+    },
+    "process": {
+      "title": "How It Works",
+      "step1Title": "Consultation",
+      "step1Desc": "Message us on WhatsApp. We discuss your requirements, fabric choices, and deadline.",
+      "step2Title": "Measurements",
+      "step2Desc": "Visit our Patiala shop for precise measurements or share a perfectly fitting reference garment.",
+      "step3Title": "Crafting",
+      "step3Desc": "Our master tailors cut and stitch your garment with absolute precision.",
+      "step4Title": "Fitting & Delivery",
+      "step4Desc": "Final trial and adjustments if needed, delivered exactly when promised."
+    },
+    "testimonials": {
+      "title": "Client Stories",
+      "t1Name": "Gurpreet Singh",
+      "t1Quote": "Got my Pathani suit stitched for a friend's wedding within 2 days. The fit was absolutely perfect and the finish is premium.",
+      "t2Name": "Rahul Verma",
+      "t2Quote": "Best Nehru jackets in Patiala. The WhatsApp ordering process is so convenient for someone with a busy schedule.",
+      "t3Name": "Manpreet S.",
+      "t3Quote": "Their attention to detail is unmatched. You can tell they are master tailors. Highly recommended for ethnic wear."
+    },
+    "gallery": {
+      "title": "Our Craft in Focus",
+      "subtitle": "Explore our recent bespoke creations, from classic Pathani kurtas to contemporary Nehru jackets.",
+      "button": "View Full Gallery"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "Do you accommodate urgent orders?",
+      "a1": "Yes, we specialize in fast deadlines. Message us on WhatsApp with your exact requirement and date, and we'll confirm immediately.",
+      "q2": "Can I order completely via WhatsApp?",
+      "a2": "Absolutely. Many of our regular clients just send us fabric choices and reference images on WhatsApp. We have their measurements on file.",
+      "q3": "Do you provide fabrics or should I bring my own?",
+      "a3": "Both! We have a curated selection of premium fabrics for kurtas and jackets, but we are equally happy to stitch fabric you bring to us.",
+      "q4": "What are your specialties?",
+      "a4": "Our signature items are Pathani kurtas and Nehru jackets. We pride ourselves on the structure, fit, and finishing of these specific garments."
+    },
+    "location": {
+      "title": "Visit Our Shop",
+      "subtitle": "Located conveniently in Patiala. Drop by for measurements or a consultation.",
+      "addressTitle": "Address",
+      "addressDesc1": "Urban Estate Phase 1 Market",
+      "addressDesc2": "Patiala, Punjab",
+      "hoursTitle": "Hours",
+      "hoursDesc1": "Open Daily: 10:00 AM - 8:00 PM",
+      "hoursDesc2": "(Hours may vary, WhatsApp ahead recommended)",
+      "contactTitle": "Contact",
+      "contactDesc1": "+91 62393 03037",
+      "contactDesc2": "Available on WhatsApp"
+    }
   },
   "about": {
-    "title": "About",
-    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md."
+    "title": "About Purba Fashion Makers",
+    "body": "Custom tailoring shop in Urban Estate Phase 1 Market, Patiala. We specialize in Pathani kurtas, Nehru jackets, and fast deadline accommodation."
+  },
+  "services": {
+    "title": "Our Services",
+    "body": "Expert tailoring for Pathani kurtas, Nehru jackets, and more."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "body": "View our recent creations and custom tailoring work."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "body": "This is the privacy policy for Purba Fashion Makers."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "body": "These are the terms of service for Purba Fashion Makers."
   },
   "signIn": {
     "title": "Sign in",
