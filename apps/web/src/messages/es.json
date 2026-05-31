@@ -1,42 +1,50 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Kohinoor Trends",
+    "tagline": "Ropa étnica tradicional y nupcial."
   },
   "nav": {
     "home": "Inicio",
-    "about": "Acerca de",
+    "collections": "Colecciones",
+    "bridal": "Nupcial",
+    "about": "Nosotros",
     "contact": "Contacto",
     "signIn": "Iniciar sesión"
   },
+  "footer": {
+    "description": "Exquisita ropa étnica y nupcial tradicional para mujeres. Colecciones multigeneracionales que combinan con trajes de novio. Fundada en 1998.",
+    "collections": "Colecciones",
+    "company": "Empresa",
+    "visitUs": "Visítanos"
+  },
   "contact": {
     "title": "Contacto",
-    "description": "Envíanos un mensaje y te responderemos pronto.",
+    "description": "Visita nuestra boutique o ponte en contacto para consultas nupciales personalizadas.",
     "name": "Tu nombre",
     "email": "Correo electrónico",
     "message": "Tu mensaje",
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Elegancia Atemporal. Bodas Inolvidables.",
+    "description": "Kohinoor Trends ofrece ropa étnica premium para mujeres, lehengas, chales y colecciones nupciales a medida en el Sector 17, Chandigarh.",
+    "ctaPrimary": "Ver Colecciones",
+    "ctaSecondary": "Visitar Boutique"
   },
   "about": {
-    "title": "Acerca de",
-    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+    "title": "Sobre Kohinoor Trends",
+    "body": "Fundada en 1998 en el corazón del Sector 17, Chandigarh, Kohinoor Trends es una boutique de primer nivel de moda étnica y nupcial para mujeres. Con un atractivo multigeneracional, nuestras colecciones abarcan desde elegantes trajes de algodón hasta exquisitos lehengas y chales. Nos enorgullecemos de nuestra artesanía tradicional y servicio personalizado."
   },
   "signIn": {
     "title": "Iniciar sesión",
     "description": "Usa tu correo y contraseña para continuar.",
-    "email": "Correo",
+    "email": "Correo electrónico",
     "password": "Contraseña",
     "submit": "Iniciar sesión",
     "register": "Crear una cuenta",
     "errors": {
       "invalid": "Credenciales inválidas.",
-      "unknown": "Algo salió mal. Inténtalo de nuevo."
+      "unknown": "Algo salió mal. Por favor intenta de nuevo."
     }
   },
   "notFound": {
@@ -45,7 +53,7 @@
     "back": "Volver al inicio"
   },
   "theme": {
-    "toggle": "Cambiar tema",
+    "toggle": "Alternar tema",
     "light": "Claro",
     "dark": "Oscuro",
     "system": "Sistema"
@@ -54,5 +62,13 @@
     "switch": "Cambiar idioma",
     "en": "Inglés",
     "es": "Español"
+  },
+  "collections": {
+    "title": "Nuestras Colecciones",
+    "description": "Explora nuestra gama seleccionada de trajes de algodón, chales y ropa étnica de uso diario diseñada para la elegancia y la comodidad."
+  },
+  "bridal": {
+    "title": "Costura Nupcial",
+    "description": "Descubre nuestras exclusivas colecciones nupciales, con lehengas a medida y conjuntos perfectamente combinados para novios."
   }
 }
