@@ -1,8 +1,14 @@
 import type { Metadata } from 'next';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Link } from '@/i18n/navigation';
-import { Button } from '@/components/ui/button';
+import { setRequestLocale } from 'next-intl/server';
 import { buildMetadata } from '@/lib/seo';
+import { HeroSection } from '@/components/home/hero-section';
+import { MarqueeStats } from '@/components/home/marque-stats';
+import { FeaturedCategories } from '@/components/home/featured-categories';
+import { StoryValues } from '@/components/home/story-values';
+import { Bestsellers } from '@/components/home/bestsellers';
+import { Reviews } from '@/components/home/reviews';
+import { InstagramGallery } from '@/components/home/instagram-gallery';
+import { CtaSection } from '@/components/home/cta-section';
 
 export async function generateMetadata({
   params,
@@ -10,27 +16,23 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'home' });
-  return buildMetadata({ title: t('title'), description: t('description'), path: '/', locale });
+  return buildMetadata({ title: 'Aura Boutique & Fashion Studio', description: 'Trendy Western & Custom Ethnic Wear', path: '/', locale });
 }
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations('home');
 
   return (
-    <section className="mx-auto flex max-w-3xl flex-col items-center gap-6 py-20 text-center">
-      <h1 className="text-balance text-5xl font-bold tracking-tight sm:text-6xl">{t('title')}</h1>
-      <p className="text-balance text-lg text-muted-foreground">{t('description')}</p>
-      <div className="flex gap-3">
-        <Button asChild>
-          <Link href="/sign-in">{t('ctaPrimary')}</Link>
-        </Button>
-        <Button asChild variant="outline">
-          <Link href="/about">{t('ctaSecondary')}</Link>
-        </Button>
-      </div>
-    </section>
+    <>
+      <HeroSection />
+      <MarqueeStats />
+      <FeaturedCategories />
+      <StoryValues />
+      <Bestsellers />
+      <Reviews />
+      <InstagramGallery />
+      <CtaSection />
+    </>
   );
 }

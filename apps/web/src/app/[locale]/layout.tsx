@@ -7,6 +7,8 @@ import { buildMetadata } from '@/lib/seo';
 import { JsonLd, organization, website } from '@/lib/jsonld';
 import { ThemeProvider } from '@/components/theme-provider';
 import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
+import { SmoothScroll } from '@/components/smooth-scroll';
 import '../globals.css';
 
 export function generateStaticParams() {
@@ -46,8 +48,11 @@ export default async function LocaleLayout({
       <body>
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
-            <SiteHeader />
-            <main className="container py-10">{children}</main>
+            <SmoothScroll>
+              <SiteHeader />
+              <main className="min-h-screen">{children}</main>
+              <SiteFooter />
+            </SmoothScroll>
             <JsonLd data={[organization(), website(locale)]} />
           </NextIntlClientProvider>
         </ThemeProvider>
