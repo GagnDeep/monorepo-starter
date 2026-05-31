@@ -43,6 +43,55 @@
       "subtitle": "Evita la espera. Envíanos un mensaje directamente por WhatsApp para discutir telas, medidas y plazos.",
       "button": "Chatea con nuestro Sastre Maestro",
       "note": "Acomodamos plazos rápidos para eventos urgentes."
+    },
+    "process": {
+      "title": "Cómo Funciona",
+      "step1Title": "Consulta",
+      "step1Desc": "Envíanos un mensaje por WhatsApp. Discutiremos tus requerimientos, telas y fecha de entrega.",
+      "step2Title": "Medidas",
+      "step2Desc": "Visita nuestra tienda en Patiala para medidas precisas o comparte una prenda de referencia.",
+      "step3Title": "Confección",
+      "step3Desc": "Nuestros sastres maestros cortan y cosen tu prenda con precisión absoluta.",
+      "step4Title": "Prueba y Entrega",
+      "step4Desc": "Prueba final y ajustes si es necesario, entregado exactamente cuando se prometió."
+    },
+    "testimonials": {
+      "title": "Historias de Clientes",
+      "t1Name": "Gurpreet Singh",
+      "t1Quote": "Me hicieron mi traje Pathani para la boda de un amigo en 2 días. El ajuste fue absolutamente perfecto y el acabado es premium.",
+      "t2Name": "Rahul Verma",
+      "t2Quote": "Las mejores chaquetas Nehru en Patiala. El proceso de pedido por WhatsApp es muy conveniente para alguien con una agenda ocupada.",
+      "t3Name": "Manpreet S.",
+      "t3Quote": "Su atención al detalle es inigualable. Se nota que son sastres maestros. Muy recomendable para ropa étnica."
+    },
+    "gallery": {
+      "title": "Nuestro Arte en Foco",
+      "subtitle": "Explora nuestras creaciones recientes a medida, desde los clásicos kurtas Pathani hasta chaquetas Nehru contemporáneas.",
+      "button": "Ver Galería Completa"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Aceptan pedidos urgentes?",
+      "a1": "Sí, nos especializamos en plazos rápidos. Envíanos un mensaje por WhatsApp con tu requerimiento exacto y fecha, y confirmaremos de inmediato.",
+      "q2": "¿Puedo pedir completamente vía WhatsApp?",
+      "a2": "Absolutamente. Muchos de nuestros clientes regulares solo nos envían sus opciones de telas y referencias por WhatsApp. Tenemos sus medidas archivadas.",
+      "q3": "¿Proveen las telas o debo llevar las mías?",
+      "a3": "¡Ambos! Tenemos una selección curada de telas premium, pero también estamos encantados de trabajar con la tela que nos traigas.",
+      "q4": "¿Cuáles son sus especialidades?",
+      "a4": "Nuestras prendas estrella son los kurtas Pathani y chaquetas Nehru. Nos enorgullece la estructura, el ajuste y el acabado de estas prendas específicas."
+    },
+    "location": {
+      "title": "Visita Nuestra Tienda",
+      "subtitle": "Ubicada convenientemente en Patiala. Pásate para tomar medidas o una consulta.",
+      "addressTitle": "Dirección",
+      "addressDesc1": "Urban Estate Phase 1 Market",
+      "addressDesc2": "Patiala, Punjab",
+      "hoursTitle": "Horario",
+      "hoursDesc1": "Abierto Diario: 10:00 AM - 8:00 PM",
+      "hoursDesc2": "(El horario puede variar, se recomienda escribir por WhatsApp antes)",
+      "contactTitle": "Contacto",
+      "contactDesc1": "+91 62393 03037",
+      "contactDesc2": "Disponible en WhatsApp"
     }
   },
   "about": {

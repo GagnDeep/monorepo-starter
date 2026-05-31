@@ -4,6 +4,11 @@ import { buildMetadata } from '@/lib/seo';
 import { HeroSection } from '@/components/home/hero-section';
 import { SpecialtiesSection } from '@/components/home/specialties-section';
 import { AboutSection } from '@/components/home/about-section';
+import { ProcessSection } from '@/components/home/process-section';
+import { GalleryPreviewSection } from '@/components/home/gallery-preview-section';
+import { TestimonialsSection } from '@/components/home/testimonials-section';
+import { FaqSection } from '@/components/home/faq-section';
+import { LocationSection } from '@/components/home/location-section';
 import { CtaSection } from '@/components/home/cta-section';
 
 export async function generateMetadata({
@@ -36,6 +41,11 @@ export default async function HomePage({
       <HeroSection />
       <SpecialtiesSection />
       <AboutSection />
+      <ProcessSection />
+      <GalleryPreviewSection />
+      <TestimonialsSection />
+      <FaqSection />
+      <LocationSection />
       <CtaSection />
     </>
   );

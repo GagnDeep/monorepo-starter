@@ -12,11 +12,14 @@
 - Built 4 GSAP-animated sections in `apps/web/app/page.tsx` (`hero-section`, `specialties-section`, `about-section`, `cta-section`).
 - Configured `next.config.ts` to whitelist `images.unsplash.com`.
 - Visually verified component layout, Unsplash image rendering, and GSAP scroll animations via Playwright screenshots.
+- Phase 1: Home page development (Batch 2)
+- Built 5 additional GSAP-animated sections: `process-section`, `testimonials-section`, `gallery-preview-section`, `faq-section`, and `location-section`.
+- Extracted hardcoded copy into `en.json` and `es.json`, using `useTranslations` hook.
+- Ensured Tailwind styling aligns with semantic tokens mapped in `globals.css` instead of undefined CSS variables.
 
 ## Verified
 - `pnpm verify` passes (typecheck, lint, i18n, build).
-- E2E tests pass.
-- Frontend rendering and GSAP scroll triggers visually verified via Playwright screenshots (`home-specialties.png`, `home-about.png`, `home-cta.png`).
+- Frontend rendering, custom styling, Unsplash images, and GSAP ScrollTrigger timelines visually verified via Playwright screenshots (`home-process.png`, `home-testimonials.png`, etc.).
 
 ## Next Action
-- Begin Phase 1: Home page development (Batch 2). Continue building the remaining GSAP scroll animation sections (e.g. Testimonials, Process, Fast Deadline highlights) for the Home page.
+- Begin Phase 2: SEO pages. Flesh out the 15+ routed pages (About Us, Services, Gallery, Contact, etc.) with unique metadata, semantic headings, and detailed localized content in batches of ~4 per run.
