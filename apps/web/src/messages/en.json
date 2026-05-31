@@ -1,31 +1,39 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "A best-in-class Next.js starter."
+    "name": "Kohinoor Trends",
+    "tagline": "Traditional ethnic and bridalwear."
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "collections": "Collections",
+    "bridal": "Bridal",
+    "about": "About Us",
     "contact": "Contact",
     "signIn": "Sign in"
   },
+  "footer": {
+    "description": "Exquisite traditional women's ethnic and bridal wear. Multi-generational collections matching groom outfits. Established 1998.",
+    "collections": "Collections",
+    "company": "Company",
+    "visitUs": "Visit Us"
+  },
   "contact": {
-    "title": "Contact",
-    "description": "Send us a message and we'll get back to you.",
+    "title": "Contact Us",
+    "description": "Visit our boutique or get in touch for custom bridal inquiries.",
     "name": "Your name",
     "email": "Email address",
     "message": "Your message",
     "submit": "Send message"
   },
   "home": {
-    "title": "Ship faster with a starter that already thought of everything.",
-    "description": "TypeScript, App Router, i18n, SEO, auth, and a themable design system — all wired up.",
-    "ctaPrimary": "Get started",
-    "ctaSecondary": "Read the docs"
+    "title": "Timeless Elegance. Unforgettable Weddings.",
+    "description": "Kohinoor Trends offers premium women's ethnic wear, lehengas, shawls, and bespoke bridal collections in Sector 17, Chandigarh.",
+    "ctaPrimary": "View Collections",
+    "ctaSecondary": "Visit Boutique"
   },
   "about": {
-    "title": "About",
-    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md."
+    "title": "About Kohinoor Trends",
+    "body": "Established in 1998 in the heart of Sector 17, Chandigarh, Kohinoor Trends is a premier boutique for women's ethnic and bridal wear. With a multi-generational appeal, our collections range from elegant cotton suits to exquisite lehengas and shawls. We take pride in our traditional craftsmanship and personalized service."
   },
   "signIn": {
     "title": "Sign in",
@@ -54,5 +62,13 @@
     "switch": "Switch language",
     "en": "English",
     "es": "Spanish"
+  },
+  "collections": {
+    "title": "Our Collections",
+    "description": "Explore our curated range of cotton suits, shawls, and everyday ethnic wear designed for elegance and comfort."
+  },
+  "bridal": {
+    "title": "Bridal Couture",
+    "description": "Discover our signature bridal collections, featuring bespoke lehengas and perfectly matched ensembles for grooms."
   }
 }

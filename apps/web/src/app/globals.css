@@ -50,72 +50,79 @@
 }
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
+  /* Warm cream background with deep maroon foreground for a traditional feel */
+  --background: 36 33% 98%;
+  --foreground: 348 74% 20%;
 
-  --card: 0 0% 100%;
-  --card-foreground: 240 10% 3.9%;
+  --card: 36 33% 98%;
+  --card-foreground: 348 74% 20%;
 
-  --popover: 0 0% 100%;
-  --popover-foreground: 240 10% 3.9%;
+  --popover: 36 33% 98%;
+  --popover-foreground: 348 74% 20%;
 
-  --primary: 240 5.9% 10%;
-  --primary-foreground: 0 0% 98%;
+  /* Deep Maroon */
+  --primary: 348 74% 20%;
+  --primary-foreground: 36 33% 98%;
 
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
+  /* Rich Gold */
+  --secondary: 42 70% 50%;
+  --secondary-foreground: 348 74% 20%;
 
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
+  /* Muted Gold/Beige */
+  --muted: 36 20% 90%;
+  --muted-foreground: 348 30% 40%;
 
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
+  --accent: 42 70% 50%;
+  --accent-foreground: 36 33% 98%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 240 5.9% 10%;
+  --border: 36 20% 90%;
+  --input: 36 20% 90%;
+  --ring: 42 70% 50%;
 
-  /* Brand tokens — change these to rebrand */
-  --brand: 240 5.9% 10%;
-  --brand-foreground: 0 0% 98%;
+  /* Brand tokens */
+  --brand: 348 74% 20%;
+  --brand-foreground: 36 33% 98%;
 
-  --radius: 0.5rem;
+  --radius: 0.25rem; /* Slightly sharper corners for a more classic look */
 }
 
 .dark {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
+  /* Very deep maroon background for dark mode */
+  --background: 348 50% 10%;
+  --foreground: 36 33% 98%;
 
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
+  --card: 348 50% 12%;
+  --card-foreground: 36 33% 98%;
 
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
+  --popover: 348 50% 12%;
+  --popover-foreground: 36 33% 98%;
 
-  --primary: 0 0% 98%;
-  --primary-foreground: 240 5.9% 10%;
+  /* Soft Gold */
+  --primary: 42 70% 55%;
+  --primary-foreground: 348 50% 10%;
 
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
+  /* Muted Maroon */
+  --secondary: 348 30% 20%;
+  --secondary-foreground: 36 33% 98%;
 
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
+  --muted: 348 30% 20%;
+  --muted-foreground: 36 20% 70%;
 
-  --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
+  --accent: 42 70% 55%;
+  --accent-foreground: 348 50% 10%;
 
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  --border: 348 30% 20%;
+  --input: 348 30% 20%;
+  --ring: 42 70% 55%;
 
-  --brand: 0 0% 98%;
-  --brand-foreground: 240 5.9% 10%;
+  --brand: 42 70% 55%;
+  --brand-foreground: 348 50% 10%;
 }
 
 /* AGENT-NOTE: Tailwind v4 removed the `container.center` / `container.padding`
