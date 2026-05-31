@@ -6,8 +6,12 @@ import { routing } from '@/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
 import { JsonLd, organization, website } from '@/lib/jsonld';
 import { ThemeProvider } from '@/components/theme-provider';
-import { SiteHeader } from '@/components/site-header';
+import { Navbar } from '@/components/layout/navbar';
+import { Footer } from '@/components/layout/footer';
 import '../globals.css';
+
+import '@fontsource/playfair-display';
+import '@fontsource/lato';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -46,8 +50,11 @@ export default async function LocaleLayout({
       <body>
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
-            <SiteHeader />
-            <main className="container py-10">{children}</main>
+            <div className="relative flex min-h-screen flex-col">
+              <Navbar />
+              <main className="flex-1 pt-20">{children}</main>
+              <Footer />
+            </div>
             <JsonLd data={[organization(), website(locale)]} />
           </NextIntlClientProvider>
         </ThemeProvider>
