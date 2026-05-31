@@ -1,42 +1,58 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "Una plantilla Next.js de primer nivel."
+    "name": "Designlane Heena",
+    "tagline": "Una boutique de diseñador especializada en trajes a medida y atuendos de regalo."
   },
   "nav": {
     "home": "Inicio",
     "about": "Acerca de",
     "contact": "Contacto",
+    "collections": "Colecciones",
+    "consultation": "Consulta",
     "signIn": "Iniciar sesión"
   },
   "contact": {
     "title": "Contacto",
-    "description": "Envíanos un mensaje y te responderemos pronto.",
+    "description": "Envíanos un mensaje y te responderemos.",
     "name": "Tu nombre",
-    "email": "Correo electrónico",
+    "email": "Dirección de correo electrónico",
     "message": "Tu mensaje",
     "submit": "Enviar mensaje"
   },
   "home": {
-    "title": "Lanza más rápido con una plantilla que ya pensó en todo.",
-    "description": "TypeScript, App Router, i18n, SEO, auth y un sistema de diseño temable, todo conectado.",
-    "ctaPrimary": "Empezar",
-    "ctaSecondary": "Leer los documentos"
+    "title": "Elegancia tejida en cada hilo",
+    "description": "Descubre trajes a medida cuidadosamente elaborados, elegantes conjuntos de regalo y exquisitos bordados.",
+    "ctaPrimary": "Explorar colecciones",
+    "ctaSecondary": "Reservar una consulta",
+    "founder": "Conoce a Heena",
+    "philosophy": "Nuestra Filosofía",
+    "philosophyText": "En Designlane Heena, creemos que la ropa es una extensión de tu personalidad. Cada pieza que creamos es una mezcla armoniosa de artesanía tradicional y diseño contemporáneo, adaptada con precisión para contar tu historia única.",
+    "specialties": "Nuestras Especialidades",
+    "specialtyCustom": "Trajes a Medida",
+    "specialtyCustomDesc": "Ajustados perfectamente a tus medidas con una atención impecable al detalle.",
+    "specialtyConsultation": "Consulta de Diseño",
+    "specialtyConsultationDesc": "Asesoramiento personalizado para seleccionar las telas, siluetas y adornos adecuados.",
+    "specialtyGifting": "Atuendos de Regalo",
+    "specialtyGiftingDesc": "Conjuntos curados y bellamente empaquetados para tus seres queridos.",
+    "specialtyEmbroidery": "Bordados Exquisitos",
+    "specialtyEmbroideryDesc": "Intrincado trabajo a mano que añade un toque de elegancia atemporal.",
+    "reviews": "Lo que dicen nuestros clientes",
+    "visitUs": "Visita nuestra boutique"
   },
   "about": {
-    "title": "Acerca de",
-    "body": "Esta plantilla está construida tanto para ingenieros como para agentes. Cada flujo de trabajo está documentado en CLAUDE.md."
+    "title": "Acerca de Heena",
+    "body": "Designlane Heena es una boutique de diseño en el Sector 17, Chandigarh, nacida de la pasión por el diseño reflexivo y el estilo personalizado."
   },
   "signIn": {
     "title": "Iniciar sesión",
-    "description": "Usa tu correo y contraseña para continuar.",
-    "email": "Correo",
+    "description": "Usa tu correo electrónico y contraseña para continuar.",
+    "email": "Correo electrónico",
     "password": "Contraseña",
     "submit": "Iniciar sesión",
     "register": "Crear una cuenta",
     "errors": {
-      "invalid": "Credenciales inválidas.",
-      "unknown": "Algo salió mal. Inténtalo de nuevo."
+      "invalid": "Credenciales no válidas.",
+      "unknown": "Algo salió mal. Por favor, inténtalo de nuevo."
     }
   },
   "notFound": {
@@ -45,7 +61,7 @@
     "back": "Volver al inicio"
   },
   "theme": {
-    "toggle": "Cambiar tema",
+    "toggle": "Alternar tema",
     "light": "Claro",
     "dark": "Oscuro",
     "system": "Sistema"
@@ -56,11 +72,11 @@
     "es": "Español"
   },
   "collections": {
-    "title": "collections",
-    "description": "TODO: translate"
+    "title": "Colecciones",
+    "description": "Explora nuestros últimos diseños."
   },
   "consultation": {
-    "title": "consultation",
-    "description": "TODO: translate"
+    "title": "Consulta",
+    "description": "Reserva una consulta de estilo personal."
   }
 }

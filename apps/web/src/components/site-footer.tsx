@@ -1,6 +1,9 @@
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 
 export function SiteFooter() {
+  const t = useTranslations('nav');
+
   return (
     <footer className="border-t border-border/40 bg-background py-12 font-sans">
       <div className="container grid gap-8 md:grid-cols-3">
@@ -16,11 +19,11 @@ export function SiteFooter() {
         <div className="flex flex-col gap-4">
           <h3 className="font-serif text-lg font-medium">Explore</h3>
           <nav className="flex flex-col gap-2 text-sm text-muted-foreground">
-            <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-            <Link href="/about" className="hover:text-primary transition-colors">About Heena</Link>
-            <Link href="/collections" className="hover:text-primary transition-colors">Collections</Link>
-            <Link href="/consultation" className="hover:text-primary transition-colors">Consultation</Link>
-            <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
+            <Link href="/" className="hover:text-primary transition-colors">{t('home')}</Link>
+            <Link href="/about" className="hover:text-primary transition-colors">{t('about')}</Link>
+            <Link href="/collections" className="hover:text-primary transition-colors">{t('collections')}</Link>
+            <Link href="/consultation" className="hover:text-primary transition-colors">{t('consultation')}</Link>
+            <Link href="/contact" className="hover:text-primary transition-colors">{t('contact')}</Link>
           </nav>
         </div>
 

@@ -1,12 +1,14 @@
 {
   "site": {
-    "name": "Acme",
-    "tagline": "A best-in-class Next.js starter."
+    "name": "Designlane Heena",
+    "tagline": "A designer boutique specializing in customized stitched suits and gifting outfits."
   },
   "nav": {
     "home": "Home",
     "about": "About",
     "contact": "Contact",
+    "collections": "Collections",
+    "consultation": "Consultation",
     "signIn": "Sign in"
   },
   "contact": {
@@ -18,14 +20,28 @@
     "submit": "Send message"
   },
   "home": {
-    "title": "Ship faster with a starter that already thought of everything.",
-    "description": "TypeScript, App Router, i18n, SEO, auth, and a themable design system — all wired up.",
-    "ctaPrimary": "Get started",
-    "ctaSecondary": "Read the docs"
+    "title": "Elegance woven into every thread",
+    "description": "Discover thoughtfully crafted customized stitched suits, elegant gifting outfits, and exquisite embroidery.",
+    "ctaPrimary": "Explore Collections",
+    "ctaSecondary": "Book a Consultation",
+    "founder": "Meet Heena",
+    "philosophy": "Our Philosophy",
+    "philosophyText": "At Designlane Heena, we believe clothing is an extension of your personality. Every piece we create is a harmonious blend of traditional craftsmanship and contemporary design, tailored precisely to tell your unique story.",
+    "specialties": "Our Specialties",
+    "specialtyCustom": "Custom Stitched Suits",
+    "specialtyCustomDesc": "Perfectly fitted to your measurements with impeccable attention to detail.",
+    "specialtyConsultation": "Design Consultation",
+    "specialtyConsultationDesc": "Personalized advice to select the right fabrics, silhouettes, and embellishments.",
+    "specialtyGifting": "Gifting Outfits",
+    "specialtyGiftingDesc": "Curated, beautifully packaged ensembles for your loved ones.",
+    "specialtyEmbroidery": "Exquisite Embroidery",
+    "specialtyEmbroideryDesc": "Intricate handwork that adds a touch of timeless elegance.",
+    "reviews": "What Our Clients Say",
+    "visitUs": "Visit Our Boutique"
   },
   "about": {
-    "title": "About",
-    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md."
+    "title": "About Heena",
+    "body": "Designlane Heena is a designer boutique in Sector 17, Chandigarh, born from a passion for thoughtful design and personalized styling."
   },
   "signIn": {
     "title": "Sign in",
@@ -56,11 +72,11 @@
     "es": "Spanish"
   },
   "collections": {
-    "title": "collections",
-    "description": "TODO: translate"
+    "title": "Collections",
+    "description": "Browse our latest designs."
   },
   "consultation": {
-    "title": "consultation",
-    "description": "TODO: translate"
+    "title": "Consultation",
+    "description": "Book a personal styling consultation."
   }
 }

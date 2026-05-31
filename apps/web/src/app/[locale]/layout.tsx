@@ -6,9 +6,22 @@ import { routing } from '@/i18n/routing';
 import { buildMetadata } from '@/lib/seo';
 import { JsonLd, organization, website } from '@/lib/jsonld';
 import { ThemeProvider } from '@/components/theme-provider';
+import { Inter, Playfair_Display } from 'next/font/google';
 import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import '../globals.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-serif',
+  display: 'swap',
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -43,8 +56,8 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body>
+    <html lang={locale} className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
+      <body className="font-sans antialiased">
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             <SiteHeader />
