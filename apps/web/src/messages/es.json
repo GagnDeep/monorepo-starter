@@ -54,5 +54,13 @@
     "switch": "Cambiar idioma",
     "en": "Inglés",
     "es": "Español"
+  },
+  "collections": {
+    "title": "collections",
+    "description": "TODO: translate"
+  },
+  "shipping": {
+    "title": "shipping",
+    "description": "TODO: translate"
   }
 }

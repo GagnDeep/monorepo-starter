@@ -49,73 +49,80 @@
   --radius-sm: calc(var(--radius) - 4px);
 }
 
+/* Custom font families */
+@theme inline {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+}
+
 :root {
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
+  /* Royal Punjabi / Bridal Theme (Light) */
+  --background: 40 33% 98%; /* Soft cream */
+  --foreground: 345 80% 15%; /* Deep maroon */
 
   --card: 0 0% 100%;
-  --card-foreground: 240 10% 3.9%;
+  --card-foreground: 345 80% 15%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 240 10% 3.9%;
+  --popover-foreground: 345 80% 15%;
 
-  --primary: 240 5.9% 10%;
-  --primary-foreground: 0 0% 98%;
+  --primary: 350 75% 38%; /* Rich crimson/bridal red */
+  --primary-foreground: 45 100% 95%; /* Pale gold */
 
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
+  --secondary: 43 74% 49%; /* Zari gold */
+  --secondary-foreground: 345 80% 15%; /* Deep maroon */
 
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
+  --muted: 35 25% 90%; /* Warm pale beige */
+  --muted-foreground: 345 30% 40%; /* Soft maroon */
 
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
+  --accent: 43 74% 49%;
+  --accent-foreground: 45 100% 95%;
 
-  --destructive: 0 84.2% 60.2%;
+  --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 240 5.9% 10%;
+  --border: 35 30% 85%;
+  --input: 35 30% 85%;
+  --ring: 43 74% 49%;
 
-  /* Brand tokens — change these to rebrand */
-  --brand: 240 5.9% 10%;
-  --brand-foreground: 0 0% 98%;
+  --brand: 350 75% 38%;
+  --brand-foreground: 45 100% 95%;
 
-  --radius: 0.5rem;
+  --radius: 0.25rem;
 }
 
 .dark {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
+  /* Royal Punjabi / Bridal Theme (Dark) */
+  --background: 345 80% 10%; /* Very dark maroon/almost black */
+  --foreground: 45 100% 95%; /* Pale gold */
 
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
+  --card: 345 70% 15%;
+  --card-foreground: 45 100% 95%;
 
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
+  --popover: 345 70% 15%;
+  --popover-foreground: 45 100% 95%;
 
-  --primary: 0 0% 98%;
-  --primary-foreground: 240 5.9% 10%;
+  --primary: 43 74% 49%; /* Zari gold */
+  --primary-foreground: 345 80% 10%; /* Very dark maroon */
 
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
+  --secondary: 350 75% 38%; /* Rich crimson */
+  --secondary-foreground: 45 100% 95%;
 
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
+  --muted: 345 50% 20%;
+  --muted-foreground: 45 50% 70%;
 
-  --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
+  --accent: 43 74% 49%;
+  --accent-foreground: 345 80% 10%;
 
-  --destructive: 0 62.8% 30.6%;
+  --destructive: 0 62% 30%;
   --destructive-foreground: 0 0% 98%;
 
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  --border: 345 50% 25%;
+  --input: 345 50% 25%;
+  --ring: 43 74% 49%;
 
-  --brand: 0 0% 98%;
-  --brand-foreground: 240 5.9% 10%;
+  --brand: 43 74% 49%;
+  --brand-foreground: 345 80% 10%;
 }
 
 /* AGENT-NOTE: Tailwind v4 removed the `container.center` / `container.padding`
@@ -131,6 +138,10 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground antialiased font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
   }
 }
