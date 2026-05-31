@@ -54,15 +54,45 @@
       "title": "The Art of Elegant Tailoring",
       "description": "Located near Police Station Road in Tripuri, Patiala, Gladies Boutique is your destination for bespoke fashion. We combine traditional craftsmanship with contemporary designs.",
       "cta": "Learn More About Us"
+    },
+    "instagram": {
+      "title": "Follow Our Journey",
+      "handle": "@gladiesboutique"
+    },
+    "ctaSection": {
+      "title": "Ready for your perfect outfit?",
+      "description": "Whether you need a custom stitched suit or premium unstitched fabric, we are here to help you look your best.",
+      "buttonPrimary": "Book an Appointment",
+      "buttonSecondary": "View Our Services"
     }
   },
   "collection": {
     "title": "Our Collection",
-    "description": "Discover our latest festive collections and elegant suits."
+    "description": "Discover our latest festive collections and elegant suits.",
+    "items": {
+      "redSilk": "Red Silk Festive Suit",
+      "goldEmbroidered": "Gold Embroidered Bridal Wear",
+      "festiveLehenga": "Festive Lehenga",
+      "unstitchedCotton": "Premium Unstitched Cotton",
+      "floralGeorgette": "Floral Georgette Suit",
+      "velvetSuit": "Winter Velvet Ensemble"
+    }
   },
   "services": {
     "title": "Our Services",
-    "description": "Expert stitching and on-time delivery for your perfect outfit."
+    "description": "Expert stitching and on-time delivery for your perfect outfit.",
+    "stitching": {
+      "title": "Bespoke Stitching",
+      "description": "Our master tailors ensure that every garment is stitched to your exact measurements, providing a flawless fit that flatters your silhouette. We pay attention to every detail, from the neckline to the hem."
+    },
+    "delivery": {
+      "title": "On-Time Delivery",
+      "description": "We understand the importance of timing, especially for festive occasions and weddings. We guarantee that your outfit will be ready exactly when promised, so you can celebrate without stress."
+    },
+    "styling": {
+      "title": "Personalized Styling",
+      "description": "Not sure what to wear? Our experienced staff is here to help you choose the right fabric, color, and design that complements your personal style and fits the occasion perfectly."
+    }
   },
   "about": {
     "title": "About Us",

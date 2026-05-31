@@ -6,6 +6,8 @@ import { SpecialtiesSection } from '@/components/home/specialties-section';
 import { FeaturedCollection } from '@/components/home/featured-collection';
 import { ReviewsSection } from '@/components/home/reviews-section';
 import { AboutPreview } from '@/components/home/about-preview';
+import { InstagramFeed } from '@/components/home/instagram-feed';
+import { ContactCTA } from '@/components/home/contact-cta';
 
 export async function generateMetadata({
   params,
@@ -28,6 +30,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <FeaturedCollection />
       <ReviewsSection />
       <AboutPreview />
+      <InstagramFeed />
+      <ContactCTA />
     </>
   );
 }

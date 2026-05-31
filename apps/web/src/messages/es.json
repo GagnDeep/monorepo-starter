@@ -54,15 +54,45 @@
       "title": "El Arte de la Sastrería Elegante",
       "description": "Ubicada cerca de Police Station Road en Tripuri, Patiala, Gladies Boutique es tu destino de moda a medida. Combinamos la artesanía tradicional con diseños contemporáneos.",
       "cta": "Conoce Más Sobre Nosotros"
+    },
+    "instagram": {
+      "title": "Sigue Nuestro Viaje",
+      "handle": "@gladiesboutique"
+    },
+    "ctaSection": {
+      "title": "¿Listo para tu atuendo perfecto?",
+      "description": "Ya sea que necesites un traje a medida o tela sin coser premium, estamos aquí para ayudarte a lucir lo mejor posible.",
+      "buttonPrimary": "Reservar una Cita",
+      "buttonSecondary": "Ver Nuestros Servicios"
     }
   },
   "collection": {
     "title": "Nuestra Colección",
-    "description": "Descubre nuestras últimas colecciones festivas y trajes elegantes."
+    "description": "Descubre nuestras últimas colecciones festivas y trajes elegantes.",
+    "items": {
+      "redSilk": "Traje Festivo de Seda Roja",
+      "goldEmbroidered": "Traje Nupcial Bordado en Oro",
+      "festiveLehenga": "Lehenga Festiva",
+      "unstitchedCotton": "Algodón Premium Sin Coser",
+      "floralGeorgette": "Traje Floral de Georgette",
+      "velvetSuit": "Conjunto de Terciopelo de Invierno"
+    }
   },
   "services": {
     "title": "Nuestros Servicios",
-    "description": "Costura experta y entrega a tiempo para tu atuendo perfecto."
+    "description": "Costura experta y entrega a tiempo para tu atuendo perfecto.",
+    "stitching": {
+      "title": "Costura a Medida",
+      "description": "Nuestros maestros sastres aseguran que cada prenda esté cosida a tus medidas exactas, proporcionando un ajuste impecable que favorece tu silueta. Prestamos atención a cada detalle."
+    },
+    "delivery": {
+      "title": "Entrega a Tiempo",
+      "description": "Entendemos la importancia del tiempo, especialmente para ocasiones festivas y bodas. Garantizamos que tu atuendo estará listo exactamente cuando se prometió."
+    },
+    "styling": {
+      "title": "Estilo Personalizado",
+      "description": "¿No estás seguro de qué ponerte? Nuestro personal experimentado está aquí para ayudarte a elegir la tela, el color y el diseño correctos que complementen tu estilo personal."
+    }
   },
   "about": {
     "title": "Acerca de Nosotros",
