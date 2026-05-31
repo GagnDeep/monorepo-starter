@@ -3,7 +3,6 @@ import { Link } from '@/i18n/navigation';
 import { siteConfig } from '@/config/site';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { LocaleSwitcher } from '@/components/locale-switcher';
-import { UserMenu } from '@/components/user-menu';
 
 export function SiteHeader() {
   const t = useTranslations('nav');
@@ -14,19 +13,24 @@ export function SiteHeader() {
         <Link href="/" className="font-semibold tracking-tight">
           {siteConfig.name}
         </Link>
-        <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-          <Link href="/" className="hover:text-foreground">
+        <nav className="flex items-center gap-6 text-sm text-muted-foreground uppercase tracking-widest font-medium">
+          <Link href="/" className="hover:text-primary transition-colors">
             {t('home')}
           </Link>
-          <Link href="/about" className="hover:text-foreground">
+          <Link href="/collections" className="hover:text-primary transition-colors">
+            {t('collections')}
+          </Link>
+          <Link href="/custom-stitching" className="hover:text-primary transition-colors">
+            {t('customStitching')}
+          </Link>
+          <Link href="/about" className="hover:text-primary transition-colors">
             {t('about')}
           </Link>
-          <Link href="/contact" className="hover:text-foreground">
+          <Link href="/contact" className="hover:text-primary transition-colors">
             {t('contact')}
           </Link>
         </nav>
         <div className="flex items-center gap-2">
-          <UserMenu />
           <LocaleSwitcher />
           <ThemeToggle />
         </div>

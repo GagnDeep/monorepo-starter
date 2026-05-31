@@ -5,9 +5,22 @@
   },
   "nav": {
     "home": "Home",
+    "collections": "Collections",
+    "customStitching": "Custom Stitching",
     "about": "About",
     "contact": "Contact",
     "signIn": "Sign in"
+  },
+  "footer": {
+    "description": "Custom-stitched ethnic suits. Shipping to UK and overseas. Fast 2-day domestic delivery.",
+    "links": "Explore",
+    "collections": "Collections",
+    "customStitching": "Custom Stitching",
+    "shipping": "Shipping",
+    "about": "About",
+    "contact": "Contact",
+    "visitUs": "Visit Us",
+    "rights": "All rights reserved."
   },
   "contact": {
     "title": "Contact",
@@ -18,14 +31,25 @@
     "submit": "Send message"
   },
   "home": {
-    "title": "Ship faster with a starter that already thought of everything.",
-    "description": "TypeScript, App Router, i18n, SEO, auth, and a themable design system — all wired up.",
-    "ctaPrimary": "Get started",
-    "ctaSecondary": "Read the docs"
+    "title": "YAVA DESIGNS",
+    "description": "Custom-stitched ethnic suits from Chandigarh. Fast 2-day delivery across India and worldwide shipping.",
+    "heroHeading": "Elegant. Feminine. Premium Craft.",
+    "heroSub": "Your perfect fit, tailored to your essence.",
+    "heroCta": "Explore Collections",
+    "introTitle": "A Legacy of Stitching",
+    "introText": "Based in the heart of Chandigarh at Sector 22C, YAVA DESIGNS is a boutique dedicated to the art of custom-stitched ethnic wear. We blend traditional craftsmanship with contemporary elegance.",
+    "collectionsTitle": "Featured Collections",
+    "collectionsSubtitle": "Curated ethnic suits designed for every occasion.",
+    "stitchingTitle": "The Art of Custom Stitching",
+    "stitchingDesc": "We believe every woman deserves a suit that fits perfectly. Our expert tailors ensure precise measurements and impeccable finish, delivered right to your door.",
+    "stitchingCta": "Book a Consultation",
+    "reviewsTitle": "Loved by Women Worldwide",
+    "reviewsSubtitle": "4.8★ on Google (108+ Reviews)"
   },
   "about": {
     "title": "About",
-    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md."
+    "body": "This starter is built for engineers and agents alike. Every workflow you need is documented in CLAUDE.md.",
+    "description": "About YAVA DESIGNS"
   },
   "signIn": {
     "title": "Sign in",
@@ -54,5 +78,17 @@
     "switch": "Switch language",
     "en": "English",
     "es": "Spanish"
+  },
+  "collections": {
+    "title": "collections",
+    "description": "TODO: translate"
+  },
+  "custom-stitching": {
+    "title": "custom-stitching",
+    "description": "TODO: translate"
+  },
+  "shipping": {
+    "title": "shipping",
+    "description": "TODO: translate"
   }
 }
